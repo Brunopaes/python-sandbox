@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Bruno Paes'
 __email__ = 'brunopaes05@gmail.com'
+__github__ = 'https://www.github.com/Brunopaes'
 __status__ = 'Finalised'
 
 
