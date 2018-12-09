@@ -17,17 +17,17 @@ class Scraper(object):
         self.driver.get(self.url)
         time.sleep(self.time)
 
-        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Lucas Leonel")]')
+        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Gustavo Fiusa")]')
         elem.click()
 
-        msg = ['Hello', 'There!']
+        msg = 'O empenho em analisar o fenômeno da Internet é uma das consequências de todos os recursos funcionais envolvidos. Desta maneira, o aumento do diálogo entre os diferentes setores produtivos deve passar por modificações independentemente do impacto na agilidade decisória.'
 
-        for i in range(1000):
-            for j in range(len(msg)):
-                input_box = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
-                input_box.send_keys(msg[j])
-                input_box.send_keys(Keys.ENTER)
-                time.sleep(5)
+        for i in range(15):
+            # for j in range(len(msg)):
+            input_box = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
+            input_box.send_keys(msg)
+            input_box.send_keys(Keys.ENTER)
+            time.sleep(90)
 
     def main(self):
         self.search()
