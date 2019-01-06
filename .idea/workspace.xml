@@ -2,266 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/BrowserMetrics-spare.pma" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/BrowserMetrics-spare.pma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4801/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4801/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4801/crl-set" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4801/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4801/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4847/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4847/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4847/crl-set" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4847/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4847/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4851/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4851/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4851/crl-set" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4851/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateRevocation/4851/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/03019df3fd85a69a8ebd1facc6da9ba73e469774fe77f579fc5a08b8328c1d6b.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/15970488d7b997a05beb52512adee8d2e8b4a3165264121a9fabfbd5f85ad93f.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/2245450759552456963fa12ff1f76d86e0232663adc04b7f5dc6835c6ee20f02.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/293c519654c83965baaa50fc5807d4b76fbf587a2972dca4c30cf4e54547f478.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/34bb6ad6c3df9c03eea8a499ff7891486c9d5e5cac92d01f7bfd1bce19db48ef.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/41b2dc2e89e63ce4af1ba7bb29bf68c6dee6f9f1cc047e30dffae3b3ba259263.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/4494652eb0eeceafc44007d8a8fe28c0dae682bed8cb31b53fd33396b5b681a8.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/5581d4c2169036014aea0b9b573c53f0c0e43878702508172fa3aa1d0713d30c.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/5614069a2fd7c2ecd3f5e1bd44b23ec74676b9bc99115cc0ef949855d689d0dd.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/5cdc4392fee6ab4544b15e9ad456e61037fbd5fa47dca17394b25ee6f6c70eca.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/5ea773f9df56c0e7b536487dd049e0327a919a0c84a112128418759681714558.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/63f2dbcde83bcc2ccf0b728427576b33a48d61778fbd75a638b1c768544bd88d.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/68f698f81f6482be3a8ceeb9281d4cfc71515d6793d444d10a67acbb4f4ffbc4.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/6f5376ac31f03119d89900a45115ff77151c11d902c10029068db2089a37d913.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/7461b4a09cfb3d41d75159575b2e7649a445a8d27709b0cc564a6482b7eb41a3.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/747eda8331ad331091219cce254f4270c2bffd5e422008c6373579e6107bcc56.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/8775bfe7597cf88c43995fbdf36eff568d475636ff4ab560c1b4eaff5ea0830f.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/a4501269055a15545e6211ab37bc103f62ae5576a45e4b1714453e1b22106a25.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/a4b90990b418581487bb13a2cc67700a3c359804f91bdfb8e377cd0ec80ddc10.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/a577ac9ced7548dd8f025b67a241089df86e0f476ec203c2ecbedb185f282638.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/ac3b9aed7fa9674757159e6d7d575672f9d98100941e9bdeffeca1313b75782d.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/b21e05cc8ba2cd8a204e8766f92bb98a2520676bdafa70e7b249532def8b905e.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/bbd9dfbc1f8a71b593942397aa927b473857950aab52e81a909664368e1ed185.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/bc78e1dfc5f63c684649334da10fa15f0979692009c081b4f3f6917f3ed9b8a5.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/c1164ae0a772d2d4392dc80ac10770d4f0c49bde991a4840c1fa075164f63360.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/cdb5179b7fc1c046feea31136a3f8f002e6182faf8896fecc8b2f5b5ab604900.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/db74afeecb29ecb1feca3e716d2ce5b9aabb36f7847183c75d9d4f37b61fbf64.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/ddeb1d2b7a0d4fa6208b81ad8168707e2e8e9d01d55c888d3d11c4cdb6ecbecc.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/e2694bae26e8e94009e8861bb63b83d43ee7fe7488fba48f2893019dddf1dbfe.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/ee4bbdb775ce60bae142691fabe19e66a30f7e5fb072d88300c47b897aa8fdcb.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/f095a459f200d18240102d2f93888ead4bfe1d47e399e1d034a6b0a8aa8eb273.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/_platform_specific/all/sths/f65c942fd1773022145418083094568ee34d131933bfdf0c2f200bcc4ef164e3.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/928/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/03019df3fd85a69a8ebd1facc6da9ba73e469774fe77f579fc5a08b8328c1d6b.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/15970488d7b997a05beb52512adee8d2e8b4a3165264121a9fabfbd5f85ad93f.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/2245450759552456963fa12ff1f76d86e0232663adc04b7f5dc6835c6ee20f02.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/293c519654c83965baaa50fc5807d4b76fbf587a2972dca4c30cf4e54547f478.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/34bb6ad6c3df9c03eea8a499ff7891486c9d5e5cac92d01f7bfd1bce19db48ef.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/41b2dc2e89e63ce4af1ba7bb29bf68c6dee6f9f1cc047e30dffae3b3ba259263.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/4494652eb0eeceafc44007d8a8fe28c0dae682bed8cb31b53fd33396b5b681a8.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/5581d4c2169036014aea0b9b573c53f0c0e43878702508172fa3aa1d0713d30c.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/5614069a2fd7c2ecd3f5e1bd44b23ec74676b9bc99115cc0ef949855d689d0dd.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/5cdc4392fee6ab4544b15e9ad456e61037fbd5fa47dca17394b25ee6f6c70eca.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/5ea773f9df56c0e7b536487dd049e0327a919a0c84a112128418759681714558.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/63f2dbcde83bcc2ccf0b728427576b33a48d61778fbd75a638b1c768544bd88d.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/68f698f81f6482be3a8ceeb9281d4cfc71515d6793d444d10a67acbb4f4ffbc4.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/6f5376ac31f03119d89900a45115ff77151c11d902c10029068db2089a37d913.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/7461b4a09cfb3d41d75159575b2e7649a445a8d27709b0cc564a6482b7eb41a3.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/747eda8331ad331091219cce254f4270c2bffd5e422008c6373579e6107bcc56.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/8775bfe7597cf88c43995fbdf36eff568d475636ff4ab560c1b4eaff5ea0830f.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/a4501269055a15545e6211ab37bc103f62ae5576a45e4b1714453e1b22106a25.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/a4b90990b418581487bb13a2cc67700a3c359804f91bdfb8e377cd0ec80ddc10.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/a577ac9ced7548dd8f025b67a241089df86e0f476ec203c2ecbedb185f282638.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/ac3b9aed7fa9674757159e6d7d575672f9d98100941e9bdeffeca1313b75782d.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/b21e05cc8ba2cd8a204e8766f92bb98a2520676bdafa70e7b249532def8b905e.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/bbd9dfbc1f8a71b593942397aa927b473857950aab52e81a909664368e1ed185.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/bc78e1dfc5f63c684649334da10fa15f0979692009c081b4f3f6917f3ed9b8a5.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/c1164ae0a772d2d4392dc80ac10770d4f0c49bde991a4840c1fa075164f63360.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/cdb5179b7fc1c046feea31136a3f8f002e6182faf8896fecc8b2f5b5ab604900.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/db74afeecb29ecb1feca3e716d2ce5b9aabb36f7847183c75d9d4f37b61fbf64.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/ddeb1d2b7a0d4fa6208b81ad8168707e2e8e9d01d55c888d3d11c4cdb6ecbecc.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/e2694bae26e8e94009e8861bb63b83d43ee7fe7488fba48f2893019dddf1dbfe.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/ee4bbdb775ce60bae142691fabe19e66a30f7e5fb072d88300c47b897aa8fdcb.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/f095a459f200d18240102d2f93888ead4bfe1d47e399e1d034a6b0a8aa8eb273.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/_platform_specific/all/sths/f65c942fd1773022145418083094568ee34d131933bfdf0c2f200bcc4ef164e3.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/951/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/03019df3fd85a69a8ebd1facc6da9ba73e469774fe77f579fc5a08b8328c1d6b.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/15970488d7b997a05beb52512adee8d2e8b4a3165264121a9fabfbd5f85ad93f.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/2245450759552456963fa12ff1f76d86e0232663adc04b7f5dc6835c6ee20f02.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/293c519654c83965baaa50fc5807d4b76fbf587a2972dca4c30cf4e54547f478.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/34bb6ad6c3df9c03eea8a499ff7891486c9d5e5cac92d01f7bfd1bce19db48ef.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/41b2dc2e89e63ce4af1ba7bb29bf68c6dee6f9f1cc047e30dffae3b3ba259263.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/4494652eb0eeceafc44007d8a8fe28c0dae682bed8cb31b53fd33396b5b681a8.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/5581d4c2169036014aea0b9b573c53f0c0e43878702508172fa3aa1d0713d30c.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/5614069a2fd7c2ecd3f5e1bd44b23ec74676b9bc99115cc0ef949855d689d0dd.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/5cdc4392fee6ab4544b15e9ad456e61037fbd5fa47dca17394b25ee6f6c70eca.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/5ea773f9df56c0e7b536487dd049e0327a919a0c84a112128418759681714558.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/63f2dbcde83bcc2ccf0b728427576b33a48d61778fbd75a638b1c768544bd88d.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/68f698f81f6482be3a8ceeb9281d4cfc71515d6793d444d10a67acbb4f4ffbc4.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/6f5376ac31f03119d89900a45115ff77151c11d902c10029068db2089a37d913.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/7461b4a09cfb3d41d75159575b2e7649a445a8d27709b0cc564a6482b7eb41a3.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/747eda8331ad331091219cce254f4270c2bffd5e422008c6373579e6107bcc56.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/8775bfe7597cf88c43995fbdf36eff568d475636ff4ab560c1b4eaff5ea0830f.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/a4501269055a15545e6211ab37bc103f62ae5576a45e4b1714453e1b22106a25.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/a4b90990b418581487bb13a2cc67700a3c359804f91bdfb8e377cd0ec80ddc10.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/a577ac9ced7548dd8f025b67a241089df86e0f476ec203c2ecbedb185f282638.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/ac3b9aed7fa9674757159e6d7d575672f9d98100941e9bdeffeca1313b75782d.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/b21e05cc8ba2cd8a204e8766f92bb98a2520676bdafa70e7b249532def8b905e.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/bbd9dfbc1f8a71b593942397aa927b473857950aab52e81a909664368e1ed185.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/bc78e1dfc5f63c684649334da10fa15f0979692009c081b4f3f6917f3ed9b8a5.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/c1164ae0a772d2d4392dc80ac10770d4f0c49bde991a4840c1fa075164f63360.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/cdb5179b7fc1c046feea31136a3f8f002e6182faf8896fecc8b2f5b5ab604900.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/db74afeecb29ecb1feca3e716d2ce5b9aabb36f7847183c75d9d4f37b61fbf64.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/ddeb1d2b7a0d4fa6208b81ad8168707e2e8e9d01d55c888d3d11c4cdb6ecbecc.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/e2694bae26e8e94009e8861bb63b83d43ee7fe7488fba48f2893019dddf1dbfe.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/ee4bbdb775ce60bae142691fabe19e66a30f7e5fb072d88300c47b897aa8fdcb.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/f095a459f200d18240102d2f93888ead4bfe1d47e399e1d034a6b0a8aa8eb273.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/_platform_specific/all/sths/f65c942fd1773022145418083094568ee34d131933bfdf0c2f200bcc4ef164e3.sth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/CertificateTransparency/953/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/data_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/data_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/data_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/data_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000008" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000009" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00000a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00000c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00000e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00000f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000010" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000017" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00001b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00001c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00001d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00001e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000026" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000028" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00002a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00002b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00002c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00002d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00002e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000030" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000031" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000032" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000033" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000034" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000035" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000036" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000037" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000038" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00003a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00003b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00003c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00003d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00003e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00003f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000040" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000041" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000042" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000043" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000044" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000045" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000046" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000047" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000048" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000049" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00004a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00004b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00004c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00004d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00004e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00004f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000050" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000051" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000052" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000053" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000056" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000057" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000059" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00005a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00005b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00005c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00005d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00005e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00005f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000063" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000064" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000066" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000068" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000069" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00006a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00006b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00006c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00006d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00006e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00006f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000070" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000071" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000072" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000073" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000074" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000075" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000076" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000077" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000078" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000079" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00007a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00007b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00007c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00007d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00007e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00007f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000080" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000082" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000083" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000085" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000086" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000087" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000088" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00008b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00008c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00008d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00008f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000092" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000093" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000094" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000095" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000096" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000097" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_000099" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00009a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00009c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00009d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00009e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_00009f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000ad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/f_0000b2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/32e591f0f4964b98_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/32e591f0f4964b98_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/3db44084a2700fc6_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/3db44084a2700fc6_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/5ee84fc05c9a4ed0_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/7969e688c1a6784f_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/7969e688c1a6784f_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/9a5efb10ad6c2537_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/9a5efb10ad6c2537_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/e0df32e495b447ef_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/index-dir/the-real-index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Session" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Tabs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Tabs" afterDir="false" />
@@ -276,136 +27,47 @@
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/GPUCache/index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History Provider Cache" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History Provider Cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000117.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000118.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000119.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000120.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000121.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000125.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000126.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000127.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000128.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000129.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000130.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000154.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000155.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000156.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000157.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000158.ldb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/LOG.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Session" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Tabs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Tabs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000007.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000010.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000012.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000016.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000018.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000039.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000041.ldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/000044.ldb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Login Data" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Login Data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/MANIFEST-000132" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Action Predictor" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Action Predictor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Persistent State" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Preferences" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/QuotaManager" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/QuotaManager" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/QuotaManager-journal" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/QuotaManager-journal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Secure Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Secure Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/1308cfa144679f78_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/35ba4a9820223c87_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/3766f2fd150bab99_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/3ff7875528cc31b9_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/41dda2763e8a268a_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/41dda2763e8a268a_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/44d42c66259e2839_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/563281c054f4fc9c_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/7f1bd61bbfc7f2ce_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/7f1bd61bbfc7f2ce_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/7f5ec8d09b92c79b_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/87a4f884cbfe5a9a_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/a197d0af0b2fae40_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/a7e77289c32934fd_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/a7e77289c32934fd_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/be5a8b35c7e51d01_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/be5a8b35c7e51d01_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/c1a795e709267ac9_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/d7456c1c61a1b7bb_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/e07452cab82f9df5_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/e07452cab82f9df5_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/ec9b1bbee8ff33ea_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/fdff1e394b6a0a1e_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/fdff1e394b6a0a1e_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/fe8accfb759d363d_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/fe8accfb759d363d_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/0a8544cb-c47e-4e57-a0e8-bc3683ef8f48/index-dir/the-real-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/35ba4a9820223c87_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/3766f2fd150bab99_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/383566e7f2be6a71_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/383566e7f2be6a71_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/3ff7875528cc31b9_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/41dda2763e8a268a_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/41dda2763e8a268a_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/44d42c66259e2839_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/5379c2162663f042_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/5379c2162663f042_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/563281c054f4fc9c_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/655a90577d568323_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/655a90577d568323_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/7e408babd6db326a_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/7f5ec8d09b92c79b_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/87a4f884cbfe5a9a_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/be5a8b35c7e51d01_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/be5a8b35c7e51d01_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/c1a795e709267ac9_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/d7456c1c61a1b7bb_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/ec9b1bbee8ff33ea_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/fdff1e394b6a0a1e_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/fdff1e394b6a0a1e_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/fe8accfb759d363d_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/fe8accfb759d363d_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/13abd600-4bbd-4235-b15c-8752fe198dc6/index-dir/the-real-index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/32e591f0f4964b98_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/32e591f0f4964b98_0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/3db44084a2700fc6_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/3db44084a2700fc6_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/b72b7a8a44eeac30_0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/470f40c2-31c7-41bf-8a29-7086122fa8b0/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/935b9236-c66e-48f3-81fb-e688d60d1474/7b88a77a7aa8f21d_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/78f0dbba-a703-4fe9-ae22-c1d1a192eb97/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/78f0dbba-a703-4fe9-ae22-c1d1a192eb97/index-dir/the-real-index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/935b9236-c66e-48f3-81fb-e688d60d1474/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/935b9236-c66e-48f3-81fb-e688d60d1474/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/a0309553-17a3-48ab-b139-c576e7e0e2da/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/a0309553-17a3-48ab-b139-c576e7e0e2da/index-dir/the-real-index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/index.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/1157fee2e2dc1968_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/247b5e3b245c29af_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/37f07a4f71bb4d8f_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/37f07a4f71bb4d8f_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/4b708aa6fca448c3_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/b334a4f9f6122c27_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/b334a4f9f6122c27_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/c3d5cfb6a1cf033d_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/de5032c33a16f1da_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/fdf2cfeb8ad0eeac_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/6029c676-6dca-4161-b012-a23d6511326f/index-dir/the-real-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/1157fee2e2dc1968_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/4b708aa6fca448c3_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/8a2a7ef710c9f75c_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/8a2a7ef710c9f75c_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/91c65c3fefd5ac46_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/91c65c3fefd5ac46_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/c3d5cfb6a1cf033d_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/de5032c33a16f1da_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/fdf2cfeb8ad0eeac_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/a9a7c56b-e6e5-4db3-b618-ddf7ca84cd71/index-dir/the-real-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/8b46df56-be1f-472b-a8f0-c9cea4694b08/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/8b46df56-be1f-472b-a8f0-c9cea4694b08/index-dir/the-real-index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/4cb013792b196a35_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/4cb013792b196a35_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/8a729281c4672a97_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/8a729281c4672a97_1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/index-dir/the-real-index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Shortcuts" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Shortcuts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Thumbnails/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Thumbnails/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Thumbnails/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Thumbnails/LOG.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Top Sites" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Top Sites" afterDir="false" />
@@ -415,51 +77,13 @@
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/MANIFEST-000095" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/MANIFEST-000133" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/MANIFEST-000265" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/DevToolsActivePort" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/DevToolsActivePort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/21/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/21/download_file_types.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/21/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/21/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/22/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/22/download_file_types.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/22/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/FileTypePolicies/22/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Local State" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Local State" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.122/PepperFlashPlayer.plugin/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.122/PepperFlashPlayer.plugin/Contents/MacOS/PepperFlashPlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.122/PepperFlashPlayer.plugin/Contents/_CodeSignature/CodeResources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.122/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.122/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.122/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.153/PepperFlashPlayer.plugin/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.153/PepperFlashPlayer.plugin/Contents/MacOS/PepperFlashPlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.153/PepperFlashPlayer.plugin/Contents/_CodeSignature/CodeResources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.153/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.153/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/PepperFlash/31.0.0.153/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/4/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/4/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/4/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/4/ssl_error_assistant.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/6/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/6/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/6/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/SSLErrorAssistant/6/ssl_error_assistant.pb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/data_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Indexed Rules/20/9.0/Ruleset Data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Indexed Rules/20/9.1/Ruleset Data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Unindexed Rules/9.0/Filtering Rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Unindexed Rules/9.0/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Unindexed Rules/9.0/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Unindexed Rules/9.0/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Subresource Filter/Unindexed Rules/9.0/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/chrome_shutdown_ms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/chrome_shutdown_ms.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Scraper/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/caesarCipher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/scrapper.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -470,9 +94,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$thread.coverage" NAME="thread Coverage Results" MODIFIED="1541458864658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper/User_Data" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$annoying_mama.coverage" NAME="annoying_mama Coverage Results" MODIFIED="1541794975785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
-    <SUITE FILE_PATH="coverage/05_4___Python_Playground$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1544994426779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
+    <SUITE FILE_PATH="coverage/05_4___Python_Playground$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1545515528812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$yt_crawler.coverage" NAME="yt_crawler Coverage Results" MODIFIED="1542072451169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
-    <SUITE FILE_PATH="coverage/05_4___Python_Playground$anniversary_bot.coverage" NAME="anniversary_bot Coverage Results" MODIFIED="1545341547799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
+    <SUITE FILE_PATH="coverage/05_4___Python_Playground$anniversary_bot.coverage" NAME="anniversary_bot Coverage Results" MODIFIED="1545515552262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$hdsav.coverage" NAME="hdsav Coverage Results" MODIFIED="1541800169331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$caesarCipher.coverage" NAME="caesarCipher Coverage Results" MODIFIED="1543188282436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Criptography" />
   </component>
@@ -480,18 +104,18 @@
     <session id="-21951741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -506,12 +130,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3712" />
+          <entry key="py" value="3827" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3712" />
+          <entry key="Python" value="3827" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -523,11 +147,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Scraper/scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="28" column="43" selection-start-line="26" selection-start-column="12" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="621">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <marker date="1544994396888" expanded="true" signature="1064:1073" ph="..." />
+                <marker date="1545515472463" expanded="true" signature="1032:1041" ph="..." />
               </folding>
             </state>
           </provider>
@@ -536,8 +160,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="15">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
                 <marker date="1545267567347" expanded="true" signature="217:222" ph="..." />
@@ -570,8 +194,8 @@
         <option value="$PROJECT_DIR$/Scripts/Scraper/annoying_mama.py" />
         <option value="$PROJECT_DIR$/Scripts/Scraper/hdsav.py" />
         <option value="$PROJECT_DIR$/Scripts/Scraper/yt_crawler.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/scraper.py" />
         <option value="$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py" />
+        <option value="$PROJECT_DIR$/Scripts/Scraper/scraper.py" />
       </list>
     </option>
   </component>
@@ -593,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -628,6 +251,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -792,8 +416,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23187311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24093656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -856,20 +481,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/scrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/scrapper.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/Scraper/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,35 +496,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/caesarCipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/caesarCipher.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/crontab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Scraper/scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="28" column="43" selection-start-line="26" selection-start-column="12" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="621">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <marker date="1544994396888" expanded="true" signature="1064:1073" ph="..." />
+            <marker date="1545515472463" expanded="true" signature="1032:1041" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="15">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
             <marker date="1545267567347" expanded="true" signature="217:222" ph="..." />
