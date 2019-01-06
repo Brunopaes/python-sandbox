@@ -24,6 +24,6 @@ This project, as dependencies, require the following python libraries:
 
 To install them, in your anaconda envoironment or virtual envoironment, run the following command:
 
-    pip install scikit-learn selenium pandas nltk bs4
+    pip install sklearn selenium pandas nltk bs4
 
 ---------------------------
