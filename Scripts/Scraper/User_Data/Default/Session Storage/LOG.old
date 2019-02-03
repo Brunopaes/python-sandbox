@@ -1,3 +1,6 @@
-2018/12/22-19:52:12.581 a003 Reusing MANIFEST /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/Session Storage/MANIFEST-000001
-2018/12/22-19:52:12.581 a003 Recovering log #4
-2018/12/22-19:52:12.582 a003 Reusing old log /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/Session Storage/000004.log 
+2019/01/25-14:33:56.823 14103 Reusing MANIFEST /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/Session Storage/MANIFEST-000001
+2019/01/25-14:33:56.823 14103 Recovering log #4
+2019/01/25-14:33:56.824 14103 Reusing old log /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/Session Storage/000004.log 
+2019/01/25-14:35:14.783 d407 Level-0 table #8: started
+2019/01/25-14:35:14.800 d407 Level-0 table #8: 13151 bytes OK
+2019/01/25-14:35:14.802 d407 Delete type=0 #4

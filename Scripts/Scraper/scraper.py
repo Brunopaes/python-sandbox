@@ -11,22 +11,23 @@ class Scraper(object):
         self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, chrome_options=self.options)
         self.url = 'https://web.whatsapp.com'
-        self.time = 6
+        self.time = 15
 
     def search(self):
         self.driver.get(self.url)
         time.sleep(self.time)
 
-        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Diego Tebet")]')
+        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Renato Paes")]')
         elem.click()
 
-        msg = 'Batman invertido'
+        msg = 'A chuva parou?'
 
         while True:
             # for j in range(len(msg)):
             input_box = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
             input_box.send_keys(msg)
             input_box.send_keys(Keys.ENTER)
+            time.sleep(1)
 
     def main(self):
         self.search()
