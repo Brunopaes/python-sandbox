@@ -1,22 +1,3 @@
-2019/01/25-14:35:27.138 7e03 Reusing MANIFEST /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/01/25-14:35:27.138 7e03 Recovering log #169
-2019/01/25-14:35:27.245 7e03 Level-0 table #178: started
-2019/01/25-14:35:27.356 7e03 Level-0 table #178: 1354658 bytes OK
-2019/01/25-14:35:27.357 7e03 Delete type=0 #169
-2019/01/25-14:35:32.673 221b Moved #178 to level-1 1354658 bytes OK: files[ 0 1 6 0 0 0 0 ]
-2019/01/25-14:35:43.716 221b Compacting 1@1 + 6@2 files
-2019/01/25-14:35:44.204 221b Generated table #180@1: 41350 keys, 2230766 bytes
-2019/01/25-14:35:44.563 221b Generated table #181@1: 37837 keys, 2232452 bytes
-2019/01/25-14:35:44.964 221b Generated table #182@1: 30613 keys, 2252846 bytes
-2019/01/25-14:35:45.277 221b Generated table #183@1: 31811 keys, 2255247 bytes
-2019/01/25-14:35:45.595 221b Generated table #184@1: 45997 keys, 2257716 bytes
-2019/01/25-14:35:45.934 221b Generated table #185@1: 33994 keys, 990556 bytes
-2019/01/25-14:35:45.934 221b Compacted 1@1 + 6@2 files => 12219583 bytes
-2019/01/25-14:35:45.937 221b compacted to: files[ 0 0 6 0 0 0 0 ]
-2019/01/25-14:35:45.937 221b Delete type=2 #175
-2019/01/25-14:35:45.938 221b Delete type=2 #174
-2019/01/25-14:35:45.939 221b Delete type=2 #176
-2019/01/25-14:35:45.939 221b Delete type=2 #173
-2019/01/25-14:35:45.960 221b Delete type=2 #172
-2019/01/25-14:35:45.961 221b Delete type=2 #171
-2019/01/25-14:35:45.963 221b Delete type=2 #178
+2019/02/12-21:27:09.419 e103 Reusing MANIFEST /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/02/12-21:27:09.420 e103 Recovering log #179
+2019/02/12-21:27:09.451 e103 Reusing old log /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000179.log 
