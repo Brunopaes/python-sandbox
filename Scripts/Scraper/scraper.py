@@ -4,7 +4,6 @@ import time
 
 
 class Scraper(object):
-
     def __init__(self):
         self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Drivers/chromedriver'
         self.options = webdriver.ChromeOptions()
@@ -17,16 +16,17 @@ class Scraper(object):
         self.driver.get(self.url)
         time.sleep(self.time)
 
-        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Pedro Mochila")]')
+        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Hellen Cristh")]')
         elem.click()
 
-        msg = 'D E U S   G R E G O  S2'
+        msg = 'Ou, olha aqui ->'
 
         while True:
             # for j in range(len(msg)):
             input_box = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
             input_box.send_keys(msg)
             input_box.send_keys(Keys.ENTER)
+            time.sleep(6)
 
     def main(self):
         self.search()
