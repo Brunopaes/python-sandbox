@@ -1,4 +1,3 @@
-from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 import random
 import time
@@ -83,11 +82,11 @@ class CommissionForm:
 
         self.driver.find_element_by_xpath('//*[@id="mG61Hd"]/div/div[2]/div[3]/div[1]/div/div[2]/content').click()
 
-        time_ = random.randint(15, 300)
-
-        print(time_)
-
-        time.sleep(time_)
+        # time_ = random.randint(15, 300)
+        #
+        # print(time_)
+        #
+        # time.sleep(time_)
 
         self.driver.find_element_by_xpath('//*[@id="mG61Hd"]/div/div[2]/div[3]/div[1]/div/div[2]/content/span').click()
 

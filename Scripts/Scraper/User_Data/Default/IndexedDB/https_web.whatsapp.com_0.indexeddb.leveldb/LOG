@@ -1,23 +1,6 @@
-2019/03/24-19:26:55.078 cb03 Reusing MANIFEST /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/03/24-19:26:55.079 cb03 Recovering log #504
-2019/03/24-19:26:55.080 cb03 Reusing old log /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000504.log 
-2019/03/24-19:26:57.670 19c1f Compacting 1@1 + 8@2 files
-2019/03/24-19:26:57.897 19c1f Generated table #510@1: 39736 keys, 2228638 bytes
-2019/03/24-19:26:58.298 19c1f Generated table #511@1: 37163 keys, 2252314 bytes
-2019/03/24-19:26:59.025 19c1f Generated table #512@1: 37225 keys, 2331113 bytes
-2019/03/24-19:26:59.408 19c1f Generated table #513@1: 37329 keys, 2328706 bytes
-2019/03/24-19:26:59.657 19c1f Generated table #514@1: 25153 keys, 2331316 bytes
-2019/03/24-19:26:59.898 19c1f Generated table #515@1: 44796 keys, 2331002 bytes
-2019/03/24-19:27:00.187 19c1f Generated table #516@1: 60247 keys, 2327185 bytes
-2019/03/24-19:27:00.346 19c1f Generated table #517@1: 32404 keys, 1112874 bytes
-2019/03/24-19:27:00.348 19c1f Compacted 1@1 + 8@2 files => 17243148 bytes
-2019/03/24-19:27:00.455 19c1f compacted to: files[ 0 2 17 0 0 0 0 ]
-2019/03/24-19:27:00.457 19c1f Delete type=2 #506
-2019/03/24-19:27:00.460 19c1f Delete type=2 #500
-2019/03/24-19:27:00.464 19c1f Delete type=2 #501
-2019/03/24-19:27:00.465 19c1f Delete type=2 #490
-2019/03/24-19:27:00.470 19c1f Delete type=2 #491
-2019/03/24-19:27:00.473 19c1f Delete type=2 #492
-2019/03/24-19:27:00.479 19c1f Delete type=2 #496
-2019/03/24-19:27:00.485 19c1f Delete type=2 #497
-2019/03/24-19:27:00.485 19c1f Delete type=2 #495
+2019/04/24-19:19:34.729 e203 Reusing MANIFEST /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/04/24-19:19:34.729 e203 Recovering log #3
+2019/04/24-19:19:34.810 e203 Reusing old log /Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2019/04/24-19:19:36.597 27f0b Level-0 table #5: started
+2019/04/24-19:19:36.759 27f0b Level-0 table #5: 1332902 bytes OK
+2019/04/24-19:19:36.849 27f0b Delete type=0 #3
