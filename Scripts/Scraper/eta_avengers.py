@@ -7,12 +7,12 @@ import time
 
 def calc_eta():
     avengers = datetime.datetime.today().replace(day=25, month=4, year=2019, hour=0, minute=1, second=0, microsecond=0)
-    date = avengers - datetime.datetime.today()
+    date = datetime.datetime.today() - avengers
 
     m, s = divmod(date.seconds, 60)
     h, m = divmod(m, 60)
 
-    return '{:d} horas {:02d} minutos {:02d} segundos'.format(h, m, s)  # Python 3
+    return '+{:d} horas {:02d} minutos {:02d} segundos'.format(h, m, s)
 
 
 class ETA:
