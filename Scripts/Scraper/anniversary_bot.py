@@ -1,7 +1,9 @@
+#!-*- coding: utf8 -*-
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from bs4 import BeautifulSoup
+
 import pandas
 import time
 

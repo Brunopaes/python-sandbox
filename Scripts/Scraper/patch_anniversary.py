@@ -19,7 +19,7 @@ class Message:
             unread_chat = self.driver.find_element_by_css_selector('.OUeyt')
             unread_chat.click()
 
-            time.sleep(2)
+            time.sleep(4)
 
             self.get_last_message()
 
@@ -28,7 +28,7 @@ class Message:
 
     def get_source_code(self):
         html = self.driver.page_source
-        return BeautifulSoup(html, 'html5lib')
+        return BeautifulSoup(html, 'html.parser')
 
     def get_last_message(self):
         soup = self.get_source_code()

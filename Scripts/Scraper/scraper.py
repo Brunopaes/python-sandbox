@@ -16,17 +16,17 @@ class Scraper(object):
         self.driver.get(self.url)
         time.sleep(self.time)
 
-        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Hellen Cristh")]')
+        elem = self.driver.find_element_by_xpath('//span[contains(text(),"Thiago de Andrade")]')
         elem.click()
 
-        msg = 'Ou, olha aqui ->'
+        msg = 'Me coloca nos grupos de novoooo'
 
         while True:
             # for j in range(len(msg)):
             input_box = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
             input_box.send_keys(msg)
             input_box.send_keys(Keys.ENTER)
-            time.sleep(6)
+            time.sleep(15)
 
     def main(self):
         self.search()
