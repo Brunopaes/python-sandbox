@@ -24,7 +24,7 @@ class Anniversary:
 
     def get_unread(self):
         try:
-            content = self.driver.find_element_by_css_selector('.OUeyt')
+            content = self.driver.find_element_by_class_name('P6z4j')
             content.click()
 
             time.sleep(4)
