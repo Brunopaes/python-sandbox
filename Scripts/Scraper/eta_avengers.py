@@ -26,7 +26,7 @@ class ETA:
         self.driver.get('http://web.whatsapp.com')
 
     def click_endgame(self):
-        self.driver.find_element_by_xpath('//span[contains(text(),"Endgame")]').click()
+        self.driver.find_element_by_xpath('//span[contains(text(),"Verônica Brandt")]').click()
 
     def get_last_message(self):
         html = self.driver.page_source
