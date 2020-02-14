@@ -9,20 +9,23 @@ class Planet:
         self.population -= 1
 
 
-class InfiniteGaunlet:
+class InfiniteGauntlet:
     def __init__(self):
         self.planets_ = []
         self.sum_population = 0
         self.new_sum_population = 0
 
     def instancing_planets(self):
-        for inst in range(10):
+        for inst in range(100):
             self.planets_.append(Planet())
             self.sum_population += self.planets_[inst].population
-            print('Original population: {}'.format(self.planets_[inst].population))
+            print('Original population: {}'.
+                  format(self.planets_[inst].population))
 
-        print('Original Population Average: {}'.format(self.sum_population / len(self.planets_)))
-        print('Desired Population Average: {}'.format(self.sum_population / 2 / len(self.planets_)))
+        print('Original Population Average: {}'.
+              format(self.sum_population / len(self.planets_)))
+        print('Desired Population Average: {}'.
+              format(self.sum_population / 2 / len(self.planets_)))
 
     def thanos(self):
         for i in range(int(self.sum_population / 2)):
@@ -37,7 +40,8 @@ class InfiniteGaunlet:
             print('Remaining Population: {}'.format(i.population))
             self.new_sum_population += i.population
 
-        print('After Thanos-Effect Population Average: {}'.format(self.new_sum_population / len(self.planets_)))
+        print('After Thanos-Effect Population Average: {}'.
+              format(self.new_sum_population / len(self.planets_)))
 
     def main(self):
         self.instancing_planets()
@@ -45,4 +49,4 @@ class InfiniteGaunlet:
 
 
 if __name__ == '__main__':
-    InfiniteGaunlet().main()
+    InfiniteGauntlet().main()

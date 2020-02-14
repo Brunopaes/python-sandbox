@@ -1,40 +1,68 @@
-# import required packages
-import cv2
 import dlib
+import cv2
 
-face_weights = './mmod_human_face_detector.dat'
 
-# initialize cnn based face detector with the weights
-cnn_face_detector = dlib.cnn_face_detection_model_v1(face_weights)
+class FaceRecognition:
+    def __init__(self):
+        self.cnn_face_detector = \
+            dlib.cnn_face_detection_model_v1('./mmod_human_face_detector.dat')
+        self.video_capture = cv2.VideoCapture(0)
 
-# Get a reference to webcam #0 (the default one)
-video_capture = cv2.VideoCapture(0)
+        self.x, self.y, self.h, self.w = 0, 0, 0, 0
 
-while True:
+    # Used in __call__
+    def get_video(self):
+        """This function captures a video frame.
 
-    # Grab a single frame of video
-    ret, frame = video_capture.read()
+        Returns
+        -------
 
-    # apply face detection (cnn)
-    faces_cnn = cnn_face_detector(frame, 1)
+        """
+        return self.video_capture.read()
 
-    # loop over detected faces
-    for face in faces_cnn:
-        x = face.rect.left()
-        y = face.rect.top()
-        w = face.rect.right() - x
-        h = face.rect.bottom() - y
+    # Used in __call__
+    def draw_rectangle(self, frame):
+        """This function draws a red rectangle around the detected face.
 
-    # draw box over face
-    cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
+        Parameters
+        ----------
+        frame
 
-    # Display the resulting image
-    cv2.imshow('Video', frame)
+        Returns
+        -------
 
-    # Hit 'q' on the keyboard to quit!
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        """
+        cv2.rectangle(
+            frame, (self.x, self.y), (self.x + self.w, self.y + self.h),
+            (0, 0, 255), 2)
+        cv2.imshow('Video', frame)
 
-# Release handle to the webcam
-video_capture.release()
-cv2.destroyAllWindows()
+    # Used in __call__
+    def detect_face(self, frame):
+        """This function draws a red rectangle around the detected face.
+
+        Parameters
+        ----------
+        frame
+
+        Returns
+        -------
+
+        """
+        for face in self.cnn_face_detector(frame, 1):
+            self.x = face.rect.left()
+            self.y = face.rect.top()
+            self.w = face.rect.right() - self.x
+            self.h = face.rect.bottom() - self.y
+
+    def __call__(self, *args, **kwargs):
+        while True:
+            rec, frame = self.get_video()
+            self.detect_face(frame)
+            self.draw_rectangle(frame)
+
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+
+        self.video_capture.release()
+        cv2.destroyAllWindows()
