@@ -6,7 +6,6 @@ __status__ = 'Finalised'
 
 
 class Caesar(object):
-
     def __init__(self):
         """
         Initialises the alphabet dictionaries and the first question (encrypt or decrypt)
@@ -33,6 +32,7 @@ class Caesar(object):
         """
         This method, after receiving the plain message and key, crypto the plain message with the provided key.
         :return text: Encrypted text
+
         """
         text = ''
         for letter in self.text.upper():
@@ -48,6 +48,7 @@ class Caesar(object):
         """
         This method, after receiving the crypto message and key, decrypt the plain message with the provided key.
         :return text: Decrypted text
+
         """
         text = ''
         for letter in self.text.upper():
