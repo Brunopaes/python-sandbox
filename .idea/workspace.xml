@@ -1,75 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Scraper/presentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Scraper/titanic.py" afterDir="false" />
+    <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="Cython OpenCV benchmark">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Misc/elo_classifier.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Misc/randomize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Misc/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Misc/using.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/NeuralNets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/NeuralNets/cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/05.4 - Python_Playground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/05.4 - Python_Playground.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/Aneel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/BudgetDatabase/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/1551f6ce48ddf59d_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/1551f6ce48ddf59d_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/5ca50924ce3c5c59_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/5ca50924ce3c5c59_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/7969e688c1a6784f_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/7969e688c1a6784f_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/c3d5cfb6a1cf033d_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/c3d5cfb6a1cf033d_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/e0df32e495b447ef_0" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/e0df32e495b447ef_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cache/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Code Cache/js/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Code Cache/js/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Session" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Tabs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Current Tabs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension Rules/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension Rules/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension Rules/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension Rules/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension State/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension State/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension State/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Extension State/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Favicons" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/File System/Origins/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/File System/Origins/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/File System/Origins/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/File System/Origins/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/GPUCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/GPUCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History Provider Cache" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/History Provider Cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Session" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Tabs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Last Tabs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Login Data" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Login Data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Action Predictor" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Action Predictor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Network Persistent State" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/QuotaManager" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/QuotaManager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Secure Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Secure Preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/0bf6ab7f94a21cdc9c1649f884333ec20f40a544/index.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/CacheStorage/28da9c56fde4021055a681112c092453f74d8dd8/index.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/Database/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_1" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Service Worker/ScriptCache/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Session Storage/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Site Characteristics Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Site Characteristics Database/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Site Characteristics Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Site Characteristics Database/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/TransportSecurity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Web Data" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/Web Data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Default/data_reduction_proxy_leveldb/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/DevToolsActivePort" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/DevToolsActivePort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Local State" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/Local State" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/index" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/User_Data/ShaderCache/GPUCache/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/User_Data/chrome_shutdown_ms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/eta_avengers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scraper/eta_avengers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Scraper/threading.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,50 +55,6 @@
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$test.coverage" NAME="test Coverage Results" MODIFIED="1556222474873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$caesarCipher.coverage" NAME="caesarCipher Coverage Results" MODIFIED="1543188282436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Criptography" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/Scraper/eta_avengers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1556222541727" expanded="true" signature="470:475" ph="..." />
-                <marker date="1556222541727" expanded="true" signature="940:945" ph="..." />
-                <marker date="1556222541727" expanded="true" signature="1337:1346" ph="..." />
-                <marker date="1556222541727" expanded="true" signature="1468:1664" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/Scraper/presentation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -145,144 +62,47 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pass</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Scripts/Criptography/caesarCipher.py" />
-        <option value="$PROJECT_DIR$/Scripts/Criptography/viginere.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/User_Data/thread.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/threading.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/hdsav.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/yt_crawler.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py" />
-        <option value="$PROJECT_DIR$/Scripts/Misc/fausthanos.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/Aneel.py" />
-        <option value="$PROJECT_DIR$/Scripts/log.txt" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/comission.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/sads.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/commission.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/aula.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/__init__.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/scraper_movie.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/mail.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/scraper.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/Data/last_names.txt" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/Data/first_names.txt" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/annoying_mama.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/commissionII.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/test.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/eta_avengers.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/titanic.py" />
-        <option value="$PROJECT_DIR$/Scripts/Scraper/presentation.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Angular</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
+  <component name="ProjectId" id="1Xkz5qOWrzWhgM67LHbuyztC9Ds" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="05.4 - Python_Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05.4 - Python_Playground" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05.4 - Python_Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05.4 - Python_Playground" type="462c0819:PsiDirectoryNode" />
-              <item name="Drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05.4 - Python_Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05.4 - Python_Playground" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05.4 - Python_Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05.4 - Python_Playground" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05.4 - Python_Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05.4 - Python_Playground" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Scraper" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Drivers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python_Playground\Scripts\Misc" />
       <recent name="$PROJECT_DIR$/Scripts/Misc" />
       <recent name="$PROJECT_DIR$/Scripts" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python_Playground\Scripts" />
+      <recent name="$PROJECT_DIR$/Drivers" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.presentation">
-    <configuration name="anniversary_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cnn (1)">
+    <configuration name="cnn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="05.4 - Python_Playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,12 +110,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Scraper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/NeuralNets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/NeuralNets/cnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eta_avengers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fausthanos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="05.4 - Python_Playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Scraper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Scraper/eta_avengers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Misc/fausthanos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="presentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="randomize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="05.4 - Python_Playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,12 +154,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Scraper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Scraper/presentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Misc/randomize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="05.4 - Python_Playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,12 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Scraper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Scraper/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Misc/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="titanic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="using" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="05.4 - Python_Playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,12 +198,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Scraper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/Misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Scraper/titanic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Misc/using.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.anniversary_bot" />
-      <item itemvalue="Python.eta_avengers" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.titanic" />
-      <item itemvalue="Python.presentation" />
+      <item itemvalue="Python.fausthanos" />
+      <item itemvalue="Python.setup" />
+      <item itemvalue="Python.using" />
+      <item itemvalue="Python.randomize" />
+      <item itemvalue="Python.cnn (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.presentation" />
-        <item itemvalue="Python.anniversary_bot" />
-        <item itemvalue="Python.titanic" />
-        <item itemvalue="Python.eta_avengers" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.cnn (1)" />
+        <item itemvalue="Python.randomize" />
+        <item itemvalue="Python.using" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.fausthanos" />
       </list>
     </recent_temporary>
   </component>
@@ -425,6 +245,22 @@
       <workItem from="1556326767692" duration="2917000" />
       <workItem from="1556386355936" duration="22000" />
       <workItem from="1557270507689" duration="1934000" />
+      <workItem from="1581604703696" duration="1726000" />
+      <workItem from="1581611265371" duration="14000" />
+      <workItem from="1581611295593" duration="6002000" />
+      <workItem from="1581692839391" duration="1521000" />
+      <workItem from="1581706887080" duration="15000" />
+      <workItem from="1581706914821" duration="142000" />
+      <workItem from="1581707067139" duration="1649000" />
+      <workItem from="1581949105994" duration="121000" />
+      <workItem from="1581949235601" duration="308000" />
+      <workItem from="1581949781232" duration="1009000" />
+      <workItem from="1582740103439" duration="626000" />
+      <workItem from="1582740950471" duration="922000" />
+      <workItem from="1582748315224" duration="1392000" />
+      <workItem from="1582808663843" duration="5000" />
+      <workItem from="1582808895162" duration="5467000" />
+      <workItem from="1583261602429" duration="5867000" />
     </task>
     <task id="LOCAL-00001" summary="Thanos does not know anything about statistics - Proof of concept">
       <created>1549233326220</created>
@@ -447,50 +283,142 @@
       <option name="project" value="LOCAL" />
       <updated>1556154338713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Replicating Messages">
+      <created>1581705984083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581705984083</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cython OpenCV benchmark">
+      <created>1582748359480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582748359480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5477000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30513597" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3538682" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5974212" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991204" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32991204" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Thanos does not know anything about statistics - Proof of concept" />
     <MESSAGE value="Graduation Commission form filler - proof of concept" />
     <MESSAGE value="Flerken II - eta avengers" />
     <MESSAGE value="Replicating Messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replicating Messages" />
+    <MESSAGE value="Cython OpenCV benchmark" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cython OpenCV benchmark" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1863" y="-278" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581628380607">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state x="1863" y="-278" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628380607" />
+    <state x="1789" y="-518" key="CommitChangelistDialog2" timestamp="1581705983149">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state x="1789" y="-518" key="CommitChangelistDialog2/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581705983149" />
+    <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1582812909446">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-308.1600.900@0.0.1366.738" timestamp="1581605039971" />
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-518.1600.900@0.0.1366.738" timestamp="1581949833101" />
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1024.768@0.0.1366.738" timestamp="1581605283287" />
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582812909446" />
+    <state width="1557" height="321" key="GridCell.Tab.-1.bottom" timestamp="1581626956176">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.-1.bottom/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626956176" />
+    <state width="1557" height="321" key="GridCell.Tab.-1.center" timestamp="1581626956176">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.-1.center/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626956176" />
+    <state width="1557" height="321" key="GridCell.Tab.-1.left" timestamp="1581626956176">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.-1.left/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626956176" />
+    <state width="1557" height="321" key="GridCell.Tab.-1.right" timestamp="1581626956176">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.-1.right/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626956176" />
+    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1583267409768">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
+    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
+    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1583267409768">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
+    <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
+    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
+    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1583267409768">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
+    <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
+    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
+    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1583267409768">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
+    <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
+    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1583267407603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626949439" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583267407603" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1583267407603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.1.center/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626949439" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1583267407603" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1583267407603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.1.left/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626949439" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1583267407603" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1583267407603">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1557" height="321" key="GridCell.Tab.1.right/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626949439" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1583267407603" />
+    <state x="260" y="0" key="SettingsEditor" timestamp="1581950375379">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.-308.1600.900@0.0.1366.738" timestamp="1581605051220" />
+    <state x="260" y="0" key="SettingsEditor/0.0.1366.738/1366.-518.1600.900@0.0.1366.738" timestamp="1581950375379" />
+    <state x="261" y="0" key="SettingsEditor/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581706569470" />
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1024.768@0.0.1366.738" timestamp="1581605295005" />
+    <state x="335" y="147" key="Vcs.Push.Dialog.v2" timestamp="1582748365698">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="1758" y="-339" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581705993430" />
+    <state x="335" y="147" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1582748365698" />
+    <state x="1786" y="-283" key="com.intellij.ide.util.TipDialog" timestamp="1581611273446">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state x="359" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.-308.1600.900@0.0.1366.738" timestamp="1581604707452" />
+    <state x="1786" y="-283" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581611273446" />
+    <state x="1907" y="-425" key="refactoring.ChangeSignatureDialog" timestamp="1581627592776">
+      <screen x="1366" y="-518" width="1600" height="900" />
+    </state>
+    <state x="1907" y="-425" key="refactoring.ChangeSignatureDialog/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581627592776" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,176 +428,35 @@
           <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/Misc/randomize.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/NeuralNets/cnn.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scripts/NeuralNets/cnn.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/05_4___Python_Playground$presentation.coverage" NAME="presentation Coverage Results" MODIFIED="1557272949186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
-    <SUITE FILE_PATH="coverage/05_4___Python_Playground$titanic.coverage" NAME="titanic Coverage Results" MODIFIED="1556329219441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$anniversary_bot.coverage" NAME="anniversary_bot Coverage Results" MODIFIED="1557271032645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scripts/Criptography/viginere.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/User_Data/thread.py" />
-    <entry file="file:///anaconda3/envs/p36/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="330" column="4" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/hdsav.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/scrapper.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Criptography/caesarCipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1359">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/caesarCipher.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Misc/crontab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/Aneel.py" />
-    <entry file="file://$PROJECT_DIR$/Drivers/Vingadores: Ultimato - Sao Paulo - Ingresso.com.html" />
-    <entry file="file://$PROJECT_DIR$/Scripts/log.txt" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Misc/fausthanos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/aula.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/sads.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/commission.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/Data/namelist" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/Data/last_names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="168" selection-start-column="168" selection-end-column="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/Data/first_names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/commissionII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1324">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1554852434625" expanded="true" signature="90:95" ph="..." />
-            <marker date="1554852434625" expanded="true" signature="2719:2866" ph="..." />
-            <marker date="1554852434625" expanded="false" signature="3280:3363" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/scraper_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="72" column="25" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="72" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/test.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/yt_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/annoying_mama.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/threading.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/titanic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#24#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/eta_avengers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1556222541727" expanded="true" signature="470:475" ph="..." />
-            <marker date="1556222541727" expanded="true" signature="940:945" ph="..." />
-            <marker date="1556222541727" expanded="true" signature="1337:1346" ph="..." />
-            <marker date="1556222541727" expanded="true" signature="1468:1664" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/anniversary_bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Scraper/presentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/Python_Playground$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1581626932586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
+    <SUITE FILE_PATH="coverage/05_4___Python_Playground$titanic.coverage" NAME="titanic Coverage Results" MODIFIED="1556329219441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
+    <SUITE FILE_PATH="coverage/Python_Playground$fausthanos.coverage" NAME="fausthanos Coverage Results" MODIFIED="1581628526822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
+    <SUITE FILE_PATH="coverage/05_4___Python_Playground$presentation.coverage" NAME="presentation Coverage Results" MODIFIED="1557272949186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
+    <SUITE FILE_PATH="coverage/Python_Playground$cnn__1_.coverage" NAME="cnn (1) Coverage Results" MODIFIED="1583267403861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/NeuralNets" />
+    <SUITE FILE_PATH="coverage/Python_Playground$using.coverage" NAME="using Coverage Results" MODIFIED="1582806754367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
+    <SUITE FILE_PATH="coverage/Python_Playground$randomize.coverage" NAME="randomize Coverage Results" MODIFIED="1582812687130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
+    <SUITE FILE_PATH="coverage/Python_Playground$elo_classifier.coverage" NAME="elo_classifier Coverage Results" MODIFIED="1581612669382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
+    <SUITE FILE_PATH="coverage/Python_Playground$setup.coverage" NAME="setup Coverage Results" MODIFIED="1582740981851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
+    <SUITE FILE_PATH="coverage/Python_Playground$face.coverage" NAME="face Coverage Results" MODIFIED="1581612903996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
   </component>
 </project>
