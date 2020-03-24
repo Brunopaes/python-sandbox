@@ -17,7 +17,7 @@ def calc_eta():
 
 class ETA:
     def __init__(self):
-        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Drivers/chromedriver'
+        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/drivers/chromedriver'
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, chrome_options=self.options)

@@ -7,11 +7,11 @@ import os
 class CommissionForm:
     def __init__(self):
         self.url = 'https://docs.google.com/forms/d/e/1FAIpQLSdJAgJHD8fIN3G_HUlpe3Zmuibvr1NHogoXdbVxaI2YIFiZjQ/viewform'
-        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Drivers/chromedriver'
+        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/drivers/chromedriver'
         self.driver = webdriver.Chrome(self.path)
 
-        self.f_list = open('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/Data/first_names.txt', 'r', encoding='utf-8').read().split(',')
-        self.l_list = open('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Scripts/Scraper/Data/last_names.txt', 'r', encoding='utf-8').read().split(',')
+        self.f_list = open('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/src/crawlers/data/first_names.txt', 'r', encoding='utf-8').read().split(',')
+        self.l_list = open('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/src/crawlers/data/last_names.txt', 'r', encoding='utf-8').read().split(',')
 
         self.scholarship_type = [
             '//*[@id="mG61Hd"]/div/div[2]/div[2]/div[3]/div/div[2]/div/content/div/div[1]/label/div/div[1]/div[3]/div',

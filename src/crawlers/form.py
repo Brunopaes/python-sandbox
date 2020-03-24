@@ -12,7 +12,7 @@ class Form:
                    'BIW55voWHSecnMp2cm3d5s5wCTJPUbd_rhbg/viewform'
 
         self.path = os.path.abspath(os.getcwd() + os.sep + os.pardir + os.sep +
-                                    os.pardir + '/Drivers/chromedriver')
+                                    os.pardir + '/drivers/chromedriver')
         self.driver = webdriver.Chrome(os.path.abspath(self.path))
 
         self.iterator = 1

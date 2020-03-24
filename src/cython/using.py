@@ -17,7 +17,7 @@ iterations = [
     30000,
 ]
 
-logging.info('Timestamp, Python, Cython, Iterations')
+logging.info('Timestamp, Python, cython, Iterations')
 for iteration in iterations:
     begin = datetime.datetime.now()
     for i in range(iteration):

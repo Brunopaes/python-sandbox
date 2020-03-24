@@ -5,7 +5,7 @@ import time
 class Scraper(object):
 
     def __init__(self):
-        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Python_Playground/Drivers/chromedriver'
+        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/drivers/chromedriver'
         self.driver = webdriver.Chrome(self.path)
         self.url = 'https://www.youtube.com/watch?v=6YPd1Foae_Q'
         self.time = 254

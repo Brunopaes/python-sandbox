@@ -12,15 +12,15 @@ class Forms:
                    'JHUUQ4iISgS8EsiITBYmP6jVRRleQfcjz1SdH794Q/viewform'
         self.path = \
             os.path.abspath(os.getcwd() + os.sep + os.pardir + os.sep +
-                            os.pardir + '/Drivers/chromedriver')
+                            os.pardir + '/drivers/chromedriver')
         self.driver = webdriver.Chrome(self.path)
 
         self.f_list = \
-            open(os.path.abspath(os.getcwd() + '/Data/first_names.txt'), 'r',
+            open(os.path.abspath(os.getcwd() + '/data/first_names.txt'), 'r',
                  encoding='utf-8').read().split(',')
 
         self.l_list = \
-            open(os.path.abspath(os.getcwd() + '/Data/last_names.txt'), 'r',
+            open(os.path.abspath(os.getcwd() + '/data/last_names.txt'), 'r',
                  encoding='utf-8').read().split(',')
 
 

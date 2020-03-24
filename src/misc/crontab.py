@@ -5,11 +5,11 @@ import os
 class Crontab():
 
     def __init__(self):
-        self.myFile = open('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Pandas/data/crontab.txt', 'a')
+        self.myFile = open('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Pandas/data/crontab.txt', 'a')
 
     @staticmethod
     def remove():
-        os.remove('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/Misc/05.4 - Pandas/data/crontab.txt')
+        os.remove('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Pandas/data/crontab.txt')
 
     def setCrons(self):
         # setting in the crontab - Chow scripts

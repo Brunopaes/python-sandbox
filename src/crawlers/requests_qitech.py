@@ -15,7 +15,7 @@ class Requester:
 
     def generating_cep(self):
         cep = '{0:08d}'.format(random.randint(00000000, 99999999))
-        open('Data/cep_log.txt', 'a').write('{}   {}   {}\n'.format(self.name, datetime.datetime.today(), cep))
+        open('data/cep_log.txt', 'a').write('{}   {}   {}\n'.format(self.name, datetime.datetime.today(), cep))
 
         return cep
 

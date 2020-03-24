@@ -27,7 +27,7 @@ class Scraper:
                 if html.content == 200:
                     break
                 else:
-                    open('../Scripts/log.txt', 'a').write('Status Code: {} at {}'.format(html.status_code,
+                    open('../src/log.txt', 'a').write('Status Code: {} at {}'.format(html.status_code,
                                                                                          datetime.datetime.today()))
 
     def main(self):

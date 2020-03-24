@@ -1,29 +1,42 @@
-# Python_Playground - A sandbox wrapper #
+# Python sandbox: Implementation tests for some random projects
 
 This python-wrapper groups personal and smaller python projects. Some of them are _just for fun_ scripts. This python-wrapper was made in python 3.6.
 
----------------------------
+## Dependencies
 
-## Wrapper Content ##
+For installing the requirements, in your ___venv___ or ___anaconda env___, 
+just run the following command:
 
-* __Criptography:__ Caesar and Viginere's ciphers - _made for cybersecurity fundamental classes_;
-* __bot-scraper:__ Whatsapp bot - _sends to an listed contact tons of messages_;
-* __anniversary_bot:__ whatsapp bot - _reply with a compliment anniversary's messages._
+```shell script
+pip install -r requirements.txt
+```
 
----------------------------
+----------------
 
-## Requirements ##
+## Project's Structure
 
-This project, as dependencies, require the following python libraries:
+```bash 
+.
+└── python-sandbox
+    ├── drivers
+    │   └── chromedriver
+    ├── src
+    │   ├── crawlers
+    │   ├── criptography
+    │   ├── cython
+    │   ├── misc
+    │   └── neural_nets
+    ├── .gitignore
+    ├── LICENSE
+    ├── README.md
+    └── requirements.txt
+```
 
-- scikit-learn
-- selenium
-- pandas
-- nltk
-- bs4
+### Directory description
 
-To install them, in your anaconda envoironment or virtual envoironment, run the following command:
+- __data:__ The data dir. Group of non-script support files.
+- __docs:__ The documentation dir.
+- __src:__ The scripts & source code dir.
+- __tests:__ The unittests dir.
 
-    pip install sklearn selenium pandas nltk bs4
-
----------------------------
+-----------------------
