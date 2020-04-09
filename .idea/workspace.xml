@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/neural_nets/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neural_nets/speech.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neural_nets/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neural_nets/speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/neural_nets/speech.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,20 +86,20 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno\PycharmProjects\python-sandbox\data" />
+      <recent name="D:\Python_Playground\Scripts" />
+      <recent name="$PROJECT_DIR$/Drivers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bruno\PycharmProjects\python-sandbox\data" />
       <recent name="C:\Users\bruno\PycharmProjects\python-sandbox\drivers" />
       <recent name="D:\Python_Playground\Scripts\Misc" />
       <recent name="$PROJECT_DIR$/Scripts/Misc" />
       <recent name="$PROJECT_DIR$/Scripts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bruno\PycharmProjects\python-sandbox\data" />
-      <recent name="D:\Python_Playground\Scripts" />
-      <recent name="$PROJECT_DIR$/Drivers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,6 +277,8 @@
       <workItem from="1585080764419" duration="4781000" />
       <workItem from="1586115974286" duration="5268000" />
       <workItem from="1586376598084" duration="5368000" />
+      <workItem from="1586387953747" duration="7000" />
+      <workItem from="1586453982532" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="Thanos does not know anything about statistics - Proof of concept">
       <created>1549233326220</created>
@@ -493,11 +498,16 @@
           <line>18</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/neural_nets/speech.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_sandbox$speech.coverage" NAME="speech Coverage Results" MODIFIED="1586380317897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/neural_nets" />
+    <SUITE FILE_PATH="coverage/python_sandbox$speech.coverage" NAME="speech Coverage Results" MODIFIED="1586455154008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/neural_nets" />
     <SUITE FILE_PATH="coverage/Python_Playground$using.coverage" NAME="using Coverage Results" MODIFIED="1582806754367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
     <SUITE FILE_PATH="coverage/Python_Playground$face.coverage" NAME="face Coverage Results" MODIFIED="1581612903996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$annoying_mama.coverage" NAME="annoying_mama Coverage Results" MODIFIED="1586116839560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
