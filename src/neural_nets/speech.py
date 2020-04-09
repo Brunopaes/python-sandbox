@@ -13,7 +13,7 @@ def set_path():
     -------
 
     """
-    path = os.path.abspath('src/neural_nets/settings.json')
+    path = os.path.abspath('settings.json')
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = path
 
 
