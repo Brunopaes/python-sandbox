@@ -39,10 +39,10 @@ def sample_recognize(local_file_path):
         "content": content
     }
 
-    response = client.recognize({
+    response = client.long_running_recognize({
         "language_code": "pt-BR",
         "sample_rate_hertz": 16000,
-        "encoding": enums.RecognitionConfig.AudioEncoding.ENCODING_UNSPECIFIED,
+        "encoding": enums.RecognitionConfig.AudioEncoding.ENCODING_UNSPECIFIED
     }, audio)
 
     for result in response.results:
@@ -50,4 +50,4 @@ def sample_recognize(local_file_path):
         print(u"{}".format(alternative.transcript))
 
 
-sample_recognize(r'C:\Users\bruno\PycharmProjects\python-sandbox\data\1.mp3')
+sample_recognize(r"C:\Users\bruno\Desktop\04.1.mp3")
