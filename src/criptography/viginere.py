@@ -6,7 +6,6 @@ __status__ = 'Finalised'
 
 
 class Viginere(object):
-
     @staticmethod
     def encrypt(plaintext, key):
         key_length = len(key)

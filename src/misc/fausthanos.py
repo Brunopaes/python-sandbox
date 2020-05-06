@@ -43,10 +43,10 @@ class InfiniteGauntlet:
         print('After Thanos-Effect Population Average: {}'.
               format(self.new_sum_population / len(self.planets_)))
 
-    def main(self):
+    def __call__(self, *args, **kwargs):
         self.instancing_planets()
         self.thanos()
 
 
 if __name__ == '__main__':
-    InfiniteGauntlet().main()
+    InfiniteGauntlet().__call__()

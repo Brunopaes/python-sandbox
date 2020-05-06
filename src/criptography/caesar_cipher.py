@@ -7,8 +7,8 @@ __status__ = 'Finalised'
 
 class Caesar(object):
     def __init__(self):
-        """
-        Initialises the alphabet dictionaries and the first question (encrypt or decrypt)
+        """Initialises the alphabet dictionaries and the first question
+        (encrypt or decrypt).
 
         alphabet = {
             'A': 0,
@@ -25,37 +25,43 @@ class Caesar(object):
         self.alphabet = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ", range(26)))
         self.alphabet2 = dict(zip(range(26), "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
 
+        self.text = ''
         self.qst = self.qst1()
+        self.qst_2 = ''
+        self.key = 0
 
     # Used in main
     def encrypt(self):
         """
-        This method, after receiving the plain message and key, crypto the plain message with the provided key.
+        This method, after receiving the plain message and key, crypto the
+        plain message with the provided key.
+
         :return text: Encrypted text
 
         """
         text = ''
         for letter in self.text.upper():
-            if letter.isalpha():  # Checking if the letter inside the plain text is in alphabet
-                text += self.alphabet2[(self.alphabet[letter] + self.key) % 26]  # getting the alphabet2 dict index by
-                # searching in alphabet1 dict by letter + key % 26. (This function returns a letter)
+            if letter.isalpha():
+                text += self.alphabet2[(self.alphabet[letter] + self.key) % 26]
             else:
-                text += letter  # Not an alphabetical char - add it to phrase (spaces, numbers and special chars)
+                text += letter
         return text
 
     # Used in main
     def decrypt(self):
         """
-        This method, after receiving the crypto message and key, decrypt the plain message with the provided key.
+        This method, after receiving the crypto message and key, decrypt the
+        plain message with the provided key.
+
         :return text: Decrypted text
 
         """
         text = ''
         for letter in self.text.upper():
-            if letter.isalpha():  # Checking if the letter inside the plain text is in alphabet
-                text += self.alphabet2[(self.alphabet[letter] - self.key) % 26]  # The opposite operation of encrypt()
+            if letter.isalpha():
+                text += self.alphabet2[(self.alphabet[letter] - self.key) % 26]
             else:
-                text += letter  # Not an alphabetical char - add it to phrase (spaces, numbers and special chars)
+                text += letter
         return text
 
     def main(self):
@@ -68,8 +74,8 @@ class Caesar(object):
                 print('Please, insert an Integer Value\n{}'.format(e.args))
         else:
             self.text = input('Input your to be decrypted message\n')
-            self.qst2 = self.qst2()
-            if self.qst2 == 1:
+            self.qst_2 = self.qst_2()
+            if self.qst_2 == 1:
                 for i in range(1, 26):
                     self.key = i
                     print('Rotation {}: {}'.format(i, self.decrypt()))
@@ -92,7 +98,8 @@ class Caesar(object):
     @staticmethod
     def qst2():
         try:
-            return int(input('Do you want to test all possibilities? YES [1] or NO [2]\n'))
+            return int(input('Do you want to test all possibilities? '
+                             'YES [1] or NO [2]\n'))
         except ValueError as e:
             print('Please, insert an Integer Value\n{}'.format(e.args))
 
