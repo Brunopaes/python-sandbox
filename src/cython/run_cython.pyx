@@ -3,7 +3,7 @@ import cv2
 
 
 cpdef void image_transformation():
-    img = cv2.imread('../../data/phrase.jpeg')
+    img = cv2.imread('../../data/images/phrase.jpeg')
 
     cv2.blur(img, (5, 5))
     cv2.GaussianBlur(img, (5, 5), 0)
