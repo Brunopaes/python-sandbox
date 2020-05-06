@@ -20,74 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="Restructuring dir organization">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/BINARIES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/COPYING3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/README-XPDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/freetype6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/jpeg62.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libcairo-2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libexpat-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libfontconfig-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libgcc_s_dw2-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libpixman-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libpng16-16.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libpoppler-79.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libpoppler-cpp-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libstdc++-6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/libtiff3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdfdetach.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdffonts.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdfimages.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdfinfo.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdfseparate.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdftocairo.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdftohtml.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdftoppm.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdftops.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdftotext.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/pdfunite.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/bin/zlib1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-document.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-embedded-file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-font.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-global.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-page-renderer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-page-transition.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-page.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-rectangle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-toc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/include/poppler/cpp/poppler-version.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdfdetach.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdffonts.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdfimages.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdfinfo.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdfseparate.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdftocairo.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdftohtml.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdftoppm.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdftops.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdftotext.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/poppler-0.68.0/share/man/man1/pdfunite.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/misc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/misc/pdf_converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/data/audio/1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mmod_human_face_detector.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/weights/mmod_human_face_detector.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/phrase.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/images/phrase.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/some.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/files/some.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cython/elo_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/elo_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cython/run_cython.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cython/run_cython.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cython/run_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cython/run_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/misc/randomize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/misc/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/misc/pdf_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/pdf_converter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +101,7 @@
       <recent name="C:\Users\bruno\PycharmProjects\python-sandbox\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pdf_converter">
+  <component name="RunManager" selected="Python.pdf_converter (1)">
     <configuration name="annoying_mama" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bounding_box" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pdf_converter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,7 +137,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/misc/bounding_box.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/misc/pdf_converter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bounding_box" />
       <item itemvalue="Python.annoying_mama" />
       <item itemvalue="Python.speech" />
       <item itemvalue="Python.resize" />
       <item itemvalue="Python.pdf_converter" />
+      <item itemvalue="Python.pdf_converter (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pdf_converter (1)" />
         <item itemvalue="Python.pdf_converter" />
         <item itemvalue="Python.resize" />
         <item itemvalue="Python.speech" />
         <item itemvalue="Python.annoying_mama" />
-        <item itemvalue="Python.bounding_box" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +272,7 @@
       <workItem from="1588712550763" duration="1510000" />
       <workItem from="1588735357674" duration="15000" />
       <workItem from="1588774069863" duration="780000" />
-      <workItem from="1588774858279" duration="8801000" />
+      <workItem from="1588774858279" duration="10216000" />
     </task>
     <task id="LOCAL-00001" summary="Thanos does not know anything about statistics - Proof of concept">
       <created>1549233326220</created>
@@ -424,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588713394858</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Restructuring dir organization">
+      <created>1588787257876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588787257876</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,34 +438,34 @@
     </state>
     <state width="1557" height="321" key="GridCell.Tab.-1.right/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581626956176" />
     <state width="1877" height="352" key="GridCell.Tab.-1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588774923152" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1588785051150">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1588788465127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
     <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
     <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588785051150" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1588785051149">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588788465127" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1588788465127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
     <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
     <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588785051149" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1588785051149">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588788465127" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1588788465126">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
     <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
     <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588785051149" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1588785051150">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588788465126" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1588788465127">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1366.738/1366.-308.1600.900@1366.-308.1600.900" timestamp="1581610953453" />
     <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628526827" />
     <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583267409768" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588785051150" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588788465127" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588774921405">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -556,12 +497,12 @@
     <state x="260" y="0" key="SettingsEditor/0.0.1366.738/1366.-518.1600.900@0.0.1366.738" timestamp="1581950375379" />
     <state x="261" y="0" key="SettingsEditor/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581706569470" />
     <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1024.768@0.0.1366.738" timestamp="1581605295005" />
-    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2" timestamp="1588713397235">
+    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2" timestamp="1588787262690">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="1758" y="-339" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581705993430" />
     <state x="335" y="147" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1582748365698" />
-    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588713397235" />
+    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588787262690" />
     <state x="1786" y="-283" key="com.intellij.ide.util.TipDialog" timestamp="1581611273446">
       <screen x="1366" y="-518" width="1600" height="900" />
     </state>
@@ -620,6 +561,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_sandbox$annoying_mama.coverage" NAME="annoying_mama Coverage Results" MODIFIED="1586116839560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$anniversary_bot.coverage" NAME="anniversary_bot Coverage Results" MODIFIED="1557271032645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
+    <SUITE FILE_PATH="coverage/python_sandbox$pdf_converter__1_.coverage" NAME="pdf_converter (1) Coverage Results" MODIFIED="1588788465110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$bounding_box.coverage" NAME="bounding_box Coverage Results" MODIFIED="1585083900241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/05_4___Python_Playground$titanic.coverage" NAME="titanic Coverage Results" MODIFIED="1556329219441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Scraper" />
     <SUITE FILE_PATH="coverage/Python_Playground$fausthanos.coverage" NAME="fausthanos Coverage Results" MODIFIED="1581628526822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/Misc" />

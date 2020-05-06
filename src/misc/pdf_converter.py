@@ -121,8 +121,7 @@ class PDF2Image:
 
 if __name__ == '__main__':
     PDF2Image(
-        r"C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Special "
-        r"Editions\Im Schloss Der Lust.pdf",
+        r"C:\Users\bruno\Desktop\Sarah Nowak.pdf",
         r"C:\Users\bruno\Desktop",
         950
     ).__call__()
