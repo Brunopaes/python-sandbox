@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="Adding PDF2Image functionality">
-      <change afterPath="$PROJECT_DIR$/src/crawlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/criptography/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cython/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/eta_avengers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawlers/eta_avengers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/formMusic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/gen_groups.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/titanic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/criptography/caesarCipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/criptography/caesar_cipher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/misc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/misc/fausthanos.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/fausthanos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/misc/pdf_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/pdf_converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neural_nets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/neural_nets/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="8ec0a285-0765-46e5-a111-eceef2cbbaf7" name="Default Changelist" comment="Major corrections&#10;-Organising directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,7 +270,7 @@
       <workItem from="1588735357674" duration="15000" />
       <workItem from="1588774069863" duration="780000" />
       <workItem from="1588774858279" duration="10970000" />
-      <workItem from="1588796014022" duration="1189000" />
+      <workItem from="1588796014022" duration="1513000" />
     </task>
     <task id="LOCAL-00001" summary="Thanos does not know anything about statistics - Proof of concept">
       <created>1549233326220</created>
@@ -388,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588789495147</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Major corrections&#10;-Organising directory">
+      <created>1588797499988</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588797499988</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,16 +404,18 @@
     <MESSAGE value="Adding Chromedriver.exe and refactoring wpp crawler" />
     <MESSAGE value="Restructuring dir organization" />
     <MESSAGE value="Adding PDF2Image functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding PDF2Image functionality" />
+    <MESSAGE value="Major corrections&#10;-Organising directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major corrections&#10;-Organising directory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1863" y="-278" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581628380607">
       <screen x="1366" y="-518" width="1600" height="900" />
     </state>
     <state x="1863" y="-278" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581628380607" />
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588275250858">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1230" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588797446325">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1230" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588797446325" />
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588275250858" />
     <state x="-1251" y="120" key="#resize" timestamp="1588708498352">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -521,12 +512,12 @@
     <state x="260" y="0" key="SettingsEditor/0.0.1366.738/1366.-518.1600.900@0.0.1366.738" timestamp="1581950375379" />
     <state x="261" y="0" key="SettingsEditor/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581706569470" />
     <state x="184" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1024.768@0.0.1366.738" timestamp="1581605295005" />
-    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2" timestamp="1588789517882">
+    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2" timestamp="1588797504255">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="1758" y="-339" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-518.1600.900@1366.-518.1600.900" timestamp="1581705993430" />
     <state x="335" y="147" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1582748365698" />
-    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588789517882" />
+    <state x="-1449" y="209" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1588797504255" />
     <state x="1786" y="-283" key="com.intellij.ide.util.TipDialog" timestamp="1581611273446">
       <screen x="1366" y="-518" width="1600" height="900" />
     </state>
