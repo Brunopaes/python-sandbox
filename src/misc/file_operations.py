@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import filecmp
+import shutil
+import random
 import os
 
 
@@ -24,3 +26,10 @@ def comparing(path):
                 print('{} == {}: {}'.format(file_1, file_2, True))
 
         file_list.pop(file_list.index(file_1))
+
+
+def moving(path, new_path, range_):
+    for i in range(range_):
+        shutil.move(
+            os.path.join(path, random.choice(os.listdir(path))), new_path
+        )
