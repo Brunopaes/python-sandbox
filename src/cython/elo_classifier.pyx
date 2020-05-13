@@ -104,7 +104,7 @@ class TopSomething:
         os.startfile(self.file_name)
 
     def __call__(self, *args, **kwargs):
-        self.open_file()
+        self.open_html()
         self.keys = list(self.dict.keys())
         self.generating_matches()
         self.running_matches()
