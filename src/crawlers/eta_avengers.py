@@ -8,20 +8,20 @@ import time
 
 def calc_eta():
     avengers = \
-        datetime.datetime.today().replace(day=25, month=4, year=2019, hour=0,
-                                          minute=1, second=0, microsecond=0)
-    date = datetime.datetime.today() - avengers
+        datetime.datetime.today().replace(day=30, month=5, year=2020, hour=14,
+                                          minute=22, second=0, microsecond=0)
+    date = abs(datetime.datetime.today() - avengers)
 
     m, s = divmod(date.seconds, 60)
     h, m = divmod(m, 60)
 
-    return '+{:d} horas {:02d} minutos {:02d} segundos'.format(h, m, s)
+    return '{:d} dias {:d} horas {:02d} minutos {:02d} segundos'.format(date.days, h, m, s)
 
 
 class ETA:
     def __init__(self):
-        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/' \
-                    r'misc/05.4 - Python_Playground/drivers/chromedriver'
+        self.path = r'C:\Users\bruno\PycharmProjects\python-sandbox' \
+                    r'\drivers\chromedriver.exe'
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, chrome_options=self.options)
@@ -31,7 +31,7 @@ class ETA:
 
     def click_endgame(self):
         self.driver.find_element_by_xpath(
-            '//span[contains(text(),"Endgame")]'
+            '//span[contains(text(),"ESPM+Matias Game Call")]'
         ).click()
 
     def get_last_message(self):
@@ -39,7 +39,7 @@ class ETA:
         soup = BeautifulSoup(html, 'html.parser')
 
         return soup.find_all('span', {
-            'class': 'selectable-text invisible-space copyable-text'
+            'class': '_3FXB1 selectable-text invisible-space copyable-text'
         })[-1].text.lower()
 
     def verify_eta(self, text):
