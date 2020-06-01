@@ -17,16 +17,16 @@ class AnnoyingMama:
 
         input()
 
-        chat = self.driver.find_element_by_xpath('//span[contains(text(),"Cristiane Augusto")]')
+        chat = self.driver.find_element_by_xpath('//span[contains(text(),"Rato")]')
         chat.click()
 
         for i in range(10000):
             input_box = self.driver.find_element_by_xpath(
                 '//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
-            input_box.send_keys('PARA DE ME ENCHER!!')
+            input_box.send_keys('LIGA AIII')
             input_box.send_keys(Keys.ENTER)
 
-            time.sleep(2)
+            time.sleep(0.1)
 
     def __call__(self, *args, **kwargs):
         self.access_page()
