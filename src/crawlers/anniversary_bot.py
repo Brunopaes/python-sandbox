@@ -10,7 +10,6 @@ import time
 
 class Anniversary:
     def __init__(self):
-
         self.df_ = pandas.DataFrame(pandas.read_excel('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - ' 
                                      'Python_Playground/src/crawlers/data/words_.xlsx'))
 
