@@ -10,7 +10,8 @@ import time
 
 class USDA:
     def __init__(self):
-        self.path = r'C:\Users\bruno\PycharmProjects\python-sandbox\drivers\chromedriver.exe'
+        self.path = r'C:\Users\bruno\PycharmProjects\python-sandbox\drivers' \
+                    r'\chromedriver.exe'
         self.driver = webdriver.Chrome(self.path)
         self.url = 'https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/' \
                    'nrcseprd1512826.html'
