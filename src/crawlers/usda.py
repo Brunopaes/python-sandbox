@@ -19,6 +19,16 @@ class USDA:
                            r'\data\files\pickle.rick'
 
     def selecting(self, id_):
+        """
+
+        Parameters
+        ----------
+        id_
+
+        Returns
+        -------
+
+        """
         time.sleep(5)
         selection = Select(self.driver.find_element_by_id(id_)).options
         for option in tqdm(selection[1:]):
@@ -27,6 +37,16 @@ class USDA:
             self.filtering(BeautifulSoup(self.driver.page_source, 'html5lib'))
 
     def filtering(self, html):
+        """
+
+        Parameters
+        ----------
+        html
+
+        Returns
+        -------
+
+        """
         table = pandas.read_html(str(html.find('table')))
         try:
             old_table = pandas.read_pickle(self.pickle_path)
