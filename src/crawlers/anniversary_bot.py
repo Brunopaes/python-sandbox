@@ -10,10 +10,12 @@ import time
 
 class Anniversary:
     def __init__(self):
-        self.df_ = pandas.DataFrame(pandas.read_excel('/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - ' 
-                                     'Python_Playground/src/crawlers/data/words_.xlsx'))
+        self.df_ = pandas.DataFrame(pandas.read_excel(
+            '/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - '
+            'Python_Playground/src/crawlers/data/words_.xlsx'))
 
-        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/drivers/chromedriver'
+        self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico' \
+                    r'/ESPM/misc/05.4 - Python_Playground/drivers/chromedriver'
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, chrome_options=self.options)
