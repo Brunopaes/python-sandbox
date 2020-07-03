@@ -37,7 +37,8 @@ class USDA:
             self.filtering(BeautifulSoup(self.driver.page_source, 'html5lib'))
 
     def filtering(self, html):
-        """
+        """This function filters and searches the main table into the html
+        file.
 
         Parameters
         ----------
