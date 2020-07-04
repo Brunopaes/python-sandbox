@@ -20,14 +20,11 @@ class USDA:
 
     def selecting(self, id_):
         """
-
         Parameters
         ----------
         id_
-
         Returns
         -------
-
         """
         time.sleep(5)
         selection = Select(self.driver.find_element_by_id(id_)).options
@@ -39,14 +36,11 @@ class USDA:
     def filtering(self, html):
         """This function filters and searches the main table into the html
         file.
-
         Parameters
         ----------
         html
-
         Returns
         -------
-
         """
         table = pandas.read_html(str(html.find('table')))
         try:
