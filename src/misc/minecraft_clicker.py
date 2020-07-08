@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import pyautogui
 import keyboard
+import time
 
 
-def clicker():
+def right_clicker():
     keyboard.wait('shift')
     while True:
         pyautogui.rightClick()
@@ -11,5 +12,14 @@ def clicker():
             keyboard.wait('shift')
 
 
+def left_clicker():
+    keyboard.wait('shift')
+    while True:
+        pyautogui.leftClick()
+        if keyboard.is_pressed('esc'):
+            keyboard.wait('shift')
+        time.sleep(4)
+
+
 if __name__ == '__main__':
-    clicker()
+    right_clicker()
