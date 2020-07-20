@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 
 import requests
 import io
@@ -106,7 +107,7 @@ class ImageDownloader:
         -------
 
         """
-        for idx, img in enumerate(image_list):
+        for idx, img in enumerate(image_list, 1):
             filename = self.filename_format(idx, 'jpg')
             with io.open(filename, 'wb') as file:
                 file.write(requests.get(
@@ -116,6 +117,15 @@ class ImageDownloader:
         self.saving_image(self.filtering(self.soup(requests.get(self.url))))
 
 
+def finding_url_list(url_):
+    html = BeautifulSoup(requests.get(url_).content, 'html5lib')
+    url_list_ = []
+    for elem in html.find_all('ul', {'class': 'gallery-a b'}):
+        for link in elem.find_all('a'):
+            url_list_.append(link.attrs.get('href'))
+    return url_list_[::-1]
+
+
 if __name__ == '__main__':
-    ImageDownloader('https://pmatehunter.com/female-in-fishnets-is-on-the-'
-                    'rooftop-revealing-her-perfectly-round-boobs-39697/', 'mia-valentine').__call__()
+    for url in tqdm(finding_url_list('https://www.elitebabes.com/model/cara-mell/')):
+        ImageDownloader(url, 'cara-mell').__call__()
