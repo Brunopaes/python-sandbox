@@ -1,4 +1,5 @@
 __all__ = [
+    'minecraft_clicker',
     'dataset_class_fixer',
     'elo_classifier',
     'fausthanos',
