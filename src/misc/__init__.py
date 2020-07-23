@@ -7,7 +7,8 @@ __all__ = [
     'helpers',
     'mail',
     'pdf_converter',
-    'reddit_analysis'
+    'reddit_analysis',
+    'reddit_poster'
 ]
 
 from . import __all__
