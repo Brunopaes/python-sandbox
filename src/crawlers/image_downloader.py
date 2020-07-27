@@ -127,5 +127,5 @@ def finding_url_list(url_):
 
 
 if __name__ == '__main__':
-    for url in tqdm(finding_url_list('https://www.elitebabes.com/model/cara-mell/')):
-        ImageDownloader(url, 'cara-mell').__call__()
+    for url_ in tqdm(finding_url_list('https://www.elitebabes.com/model/cara-mell/')):
+        ImageDownloader(url_, 'cara-mell').__call__()
