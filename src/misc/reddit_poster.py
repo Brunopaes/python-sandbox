@@ -140,5 +140,5 @@ class Poster:
 if __name__ == '__main__':
     Poster(
         r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
-        'Playboy',
+        'PlayboyOnReddit',
     ).__call__()
