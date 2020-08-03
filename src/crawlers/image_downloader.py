@@ -117,8 +117,8 @@ class ImageDownloader:
         self.saving_image(self.filtering(self.soup(requests.get(self.url))))
 
 
-def finding_url_list(url_):
-    html = BeautifulSoup(requests.get(url_).content, 'html5lib')
+def finding_url_list(url):
+    html = BeautifulSoup(requests.get(url).content, 'html5lib')
     url_list_ = []
     for elem in html.find_all('ul', {'class': 'gallery-a b'}):
         for link in elem.find_all('a'):
