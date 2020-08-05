@@ -1,5 +1,10 @@
 # Python sandbox: Implementation tests for some random projects
 
+![GitHub language count](https://img.shields.io/github/languages/count/Brunopaes/python-sandbox.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/Brunopaes/python-sandbox.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/Brunopaes/python-sandbox.svg)
+![GitHub](https://img.shields.io/github/license/Brunopaes/python-sandbox.svg)
+
 This python-wrapper groups personal and smaller python projects. Some of them are _just for fun_ scripts. This python-wrapper was made in python 3.6.
 
 ## Dependencies
