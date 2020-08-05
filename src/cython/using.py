@@ -33,4 +33,3 @@ for iteration in iterations:
                                   iteration)
 
     logging.info(msg)
-
