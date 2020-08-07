@@ -119,6 +119,10 @@ class Poster:
         self.reddit.subreddit(self.subreddit).submit(
             title=post_title, url=imgur_dict.get('link')
         )
+        print('{} photo was uploaded with {} to reddit'.format(
+            post_title,
+            imgur_dict.get('link')
+        ))
         logging.info('Uploaded {} to reddit'.format(imgur_dict.get('link')))
 
     def __call__(self, *args, **kwargs):
