@@ -119,7 +119,7 @@ class Poster:
         self.reddit.subreddit(self.subreddit).submit(
             title=post_title, url=imgur_dict.get('link')
         )
-        print('{} photo was uploaded with {} to reddit'.format(
+        print("{}'s photo was uploaded with {} to reddit".format(
             post_title,
             imgur_dict.get('link')
         ))
