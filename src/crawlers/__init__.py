@@ -10,7 +10,8 @@ __all__ = [
  'usda',
  'insulter',
  'phoenix',
- 'yt_crawler'
+ 'yt_crawler',
+ 'detran_crawler'
 ]
 
 from . import __all__
