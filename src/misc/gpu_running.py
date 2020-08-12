@@ -1,30 +1,28 @@
 #!-*- coding: utf8 -*-
-from numba import jit, vectorize, cuda
+from numba import jit
 
 import datetime
 import numpy
 
 
 def func(a):
-    for i in range(10000000):
+    for i in range(len(a)):
         a[i] += 1
 
 
-@jit(target="cuda")
+@jit
 def func2(a):
-    for i in range(10000000):
+    for i in range(len(a)):
         a[i] += 1
 
 
 if __name__ == "__main__":
-    n = 10000000
-    a = numpy.ones(n, dtype=numpy.float64)
-    b = numpy.ones(n, dtype=numpy.float32)
+    n_ = numpy.ones(1000000000, dtype=numpy.float64)
 
     start = datetime.datetime.now()
-    func(a)
+    func(n_)
     print("without GPU:", datetime.datetime.now() - start)
 
     start = datetime.datetime.now()
-    func2(a)
+    func2(n_)
     print("with GPU:", datetime.datetime.now() - start)
