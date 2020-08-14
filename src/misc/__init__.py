@@ -10,6 +10,8 @@ __all__ = [
     'reddit_analysis',
     'reddit_poster',
     'gpu_running',
+    'telegram_replier',
+    'morse_processing',
 ]
 
 from . import __all__
