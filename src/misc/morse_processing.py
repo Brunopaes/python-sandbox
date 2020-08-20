@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def morse_parser(msg):
     str_ = ''
     for i in msg:
@@ -59,7 +61,3 @@ def morse_parser(msg):
             ' ': '~'
         }.get(i.lower(), '')
     return str_.replace('~', '/')
-
-
-if __name__ == '__main__':
-    print(morse_parser('Oi, eu te amo!'))
