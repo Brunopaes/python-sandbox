@@ -22,6 +22,7 @@ def echo_message(message):
     ----------
     message : telebot.types.Message
         The message object.
+
     """
     bot.send_message(message.chat.id, morse_parser(message.text))
 
