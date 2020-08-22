@@ -12,6 +12,7 @@ __all__ = [
     'gpu_running',
     'telegram_replier',
     'morse_processing',
+    'furigoma'
 ]
 
 from . import __all__
