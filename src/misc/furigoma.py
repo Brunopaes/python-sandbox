@@ -2,9 +2,8 @@
 import random
 
 
-def furigoma(bo, iterator_):
-    """Simple function used in shogi to decide which player will begin the
-    match.
+def best_of(bo, iterator_):
+    """Function used for deciding something in Best of Something matches.
 
     Parameters
     ----------
@@ -22,5 +21,27 @@ def furigoma(bo, iterator_):
         print(random.choice(iterator_))
 
 
+def furigoma():
+    """Shogi starting player method.
+
+    Parameters
+    ----------
+
+    Returns
+    -------
+
+    """
+    pawn_state = ('normal', 'promoted')
+
+    player_1 = []
+    player_2 = []
+
+    for pawn in range(5):
+        player_1.append(random.choice(pawn_state))
+        player_2.append(random.choice(pawn_state))
+
+    return player_1.count(pawn_state[-1]), player_2.count(pawn_state[-1])
+
+
 if __name__ == '__main__':
-    furigoma(5, ('bruno', 'caio'))
+    furigoma()
