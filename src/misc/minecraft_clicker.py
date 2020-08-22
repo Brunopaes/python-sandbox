@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import pyautogui
 import keyboard
-import time
 
 
 def right_clicker():
@@ -18,8 +17,16 @@ def left_clicker():
         pyautogui.leftClick()
         if keyboard.is_pressed('esc'):
             keyboard.wait('shift')
-        time.sleep(4)
+
+
+def scroll_up_down(list_=(100, -100)):
+    keyboard.wait('shift')
+    while True:
+        for i in list_:
+            pyautogui.scroll(i)
+            if keyboard.is_pressed('esc'):
+                keyboard.wait('shift')
 
 
 if __name__ == '__main__':
-    right_clicker()
+    left_clicker()
