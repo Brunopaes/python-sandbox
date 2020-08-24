@@ -44,4 +44,4 @@ def furigoma():
 
 
 if __name__ == '__main__':
-    furigoma()
+    print(furigoma())
