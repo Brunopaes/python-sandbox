@@ -29,4 +29,4 @@ def scroll_up_down(list_=(100, -100)):
 
 
 if __name__ == '__main__':
-    left_clicker()
+    scroll_up_down()
