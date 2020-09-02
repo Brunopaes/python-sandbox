@@ -47,11 +47,13 @@ class ETA:
 
         self.driver.get('http://web.whatsapp.com')
 
+    # Used in __call__
     def click_endgame(self):
         self.driver.find_element_by_xpath(
             '//span[contains(text(),"ESPM+Matias Game Call")]'
         ).click()
 
+    # Used in __call__
     def get_last_message(self):
         html = self.driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
@@ -60,6 +62,7 @@ class ETA:
             'class': '_3Whw5 selectable-text invisible-space copyable-text'
         })[-1].text.lower()
 
+    # Used in __call__
     def verify_eta(self, text):
         message_list = text.split(' ')
         if '!launch' in message_list:
@@ -67,6 +70,7 @@ class ETA:
         else:
             print('não foi')
 
+    # Used in verify_eta
     def send_eta(self):
         input_box = self.driver.find_element_by_xpath(
             '//*[@id="main"]/footer/div[1]/div[2]/div/div[2]'
