@@ -108,3 +108,5 @@ venv.bak/
 poppler-0.68.0/
 
 .idea/
+
+src/crawlers/User_Data/

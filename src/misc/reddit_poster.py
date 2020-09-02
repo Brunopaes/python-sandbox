@@ -17,6 +17,12 @@ class Poster:
         self.name = name
         self.subreddit = subreddit
 
+        # self.subreddit = 'PlayboyOnReddit'
+        self.credentials.get('reddit')['username'] = 'PlayboyOnReddit'
+        self.credentials.get('reddit')['client-id'] = 'H5SoyNl14zTjVQ'
+        self.credentials.get('reddit')['client-secret'] = \
+            '0RJmTHumxR6AyM0FdFjLwi9Jzpo'
+
         self.reddit = self.reddit_authenticate()
         self.imgur = self.imgur_authenticate()
 
