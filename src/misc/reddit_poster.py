@@ -17,10 +17,9 @@ class Poster:
         self.name = name
         self.subreddit = subreddit
 
-        # self.subreddit = 'PlayboyOnReddit'
         self.credentials.get('reddit')['username'] = 'PlayboyOnReddit'
-        self.credentials.get('reddit')['client-id'] = 'H5SoyNl14zTjVQ'
-        self.credentials.get('reddit')['client-secret'] = \
+        self.credentials.get('reddit')['client_id'] = 'H5SoyNl14zTjVQ'
+        self.credentials.get('reddit')['client_secret'] = \
             '0RJmTHumxR6AyM0FdFjLwi9Jzpo'
 
         self.reddit = self.reddit_authenticate()
@@ -148,7 +147,8 @@ class Poster:
 
 
 if __name__ == '__main__':
-    Poster(
-        r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
-        'Playboy',
-    ).__call__()
+    for i in range(10):
+        Poster(
+            r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
+            'PlayboyOnReddit',
+        ).__call__()
