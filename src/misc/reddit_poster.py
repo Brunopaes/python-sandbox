@@ -121,8 +121,11 @@ class Poster:
         -------
 
         """
+        if 'And' in post_title.lower():
+            post_title.replace('And', 'and')
+
         self.reddit.subreddit(self.subreddit).submit(
-            title=post_title, url=imgur_dict.get('link')
+            title='{} | NSFW'.format(post_title), url=imgur_dict.get('link')
         )
         print("{}'s photo was uploaded with {} to reddit".format(
             post_title,
@@ -147,7 +150,7 @@ class Poster:
 
 
 if __name__ == '__main__':
-    for i in range(10):
+    for i in range(5):
         Poster(
             r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
             'PlayboyOnReddit',
