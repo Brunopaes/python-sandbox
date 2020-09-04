@@ -121,7 +121,7 @@ class Poster:
         -------
 
         """
-        if 'And' in post_title.lower():
+        if 'And' in post_title:
             post_title.replace('And', 'and')
 
         self.reddit.subreddit(self.subreddit).submit(
@@ -150,7 +150,7 @@ class Poster:
 
 
 if __name__ == '__main__':
-    for i in range(5):
+    for i in range(15):
         Poster(
             r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
             'PlayboyOnReddit',

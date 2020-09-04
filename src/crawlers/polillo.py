@@ -22,7 +22,7 @@ class ETA:
     # Used in __call__
     def click_endgame(self):
         self.driver.find_element_by_xpath(
-            '//span[contains(text(),"Matheus Pollilo")]'
+            '//span[contains(text(),"JÁ TENTARAM HENTAI?")]'
         ).click()
 
     # Used in __call__
@@ -41,7 +41,7 @@ class ETA:
         message_list = text_1.split(' ')
 
         if '!copy' in message_list:
-            phrase = ' '
+            phrase = ''
             text = text_2.replace(' ', '').upper()
             self.message = phrase.join(list(text))
         elif '!paste' in message_list:
