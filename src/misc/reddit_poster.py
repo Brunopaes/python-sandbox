@@ -9,7 +9,7 @@ import os
 
 
 class Poster:
-    def __init__(self, path, subreddit, name=None):
+    def __init__(self, path, subreddit, name=None, playboy_on_reddit=False):
         self.credentials = read_json('settings.json')
         self.logging_('%(levelname)s: %(asctime)s - %(message)s')
         self.path = path
@@ -17,10 +17,12 @@ class Poster:
         self.name = name
         self.subreddit = subreddit
 
-        self.credentials.get('reddit')['username'] = 'PlayboyOnReddit'
-        self.credentials.get('reddit')['client_id'] = 'H5SoyNl14zTjVQ'
-        self.credentials.get('reddit')['client_secret'] = \
-            '0RJmTHumxR6AyM0FdFjLwi9Jzpo'
+        if playboy_on_reddit:
+            self.subreddit = 'PlayboyOnReddit'
+            self.credentials.get('reddit')['username'] = 'PlayboyOnReddit'
+            self.credentials.get('reddit')['client_id'] = 'H5SoyNl14zTjVQ'
+            self.credentials.get('reddit')['client_secret'] = \
+                '0RJmTHumxR6AyM0FdFjLwi9Jzpo'
 
         self.reddit = self.reddit_authenticate()
         self.imgur = self.imgur_authenticate()
@@ -122,7 +124,7 @@ class Poster:
 
         """
         if 'And' in post_title:
-            post_title.replace('And', 'and')
+            post_title = post_title.replace('And', 'and')
 
         self.reddit.subreddit(self.subreddit).submit(
             title='{} | NSFW'.format(post_title), url=imgur_dict.get('link')
@@ -150,8 +152,9 @@ class Poster:
 
 
 if __name__ == '__main__':
-    for i in range(15):
+    for i in range(2):
         Poster(
             r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
-            'PlayboyOnReddit',
+            'Playboy',
+            playboy_on_reddit=True
         ).__call__()
