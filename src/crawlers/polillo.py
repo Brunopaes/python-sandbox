@@ -8,11 +8,11 @@ import time
 
 class ETA:
     def __init__(self):
-        self.path = r'E:\PycharmProjects\python-sandbox\drivers' \
+        self.path = r'F:\PythonProjects\Personal\python-sandbox\drivers' \
                     r'\chromedriver.exe'
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--user-data-dir=./User_Data')
-        self.driver = webdriver.Chrome(self.path, chrome_options=self.options)
+        self.driver = webdriver.Chrome(self.path, options=self.options)
         self.url = 'https://web.whatsapp.com'
 
         self.driver.get('http://web.whatsapp.com')
