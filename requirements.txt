@@ -9,6 +9,7 @@ keyboard>=0.13.5
 requests>=2.22.0
 pandas>=0.25.3
 numba>=0.50.1
+html5lib>=1.1
 numpy>=1.18.1
 tqdm>=4.45.0
 praw>=7.1.0

@@ -7,7 +7,7 @@ import io
 import os
 
 
-class ImageDownloader:
+class AnaDiasDownloader:
     def __init__(self, url, filename):
         self.url = url
         self.filename = filename
@@ -65,13 +65,7 @@ class ImageDownloader:
         html_tag : bs4.element.ResultSet
 
         """
-        return html.find_all('img', {
-            'alt': html.find('img', {
-                'sizes': '(max-width: 420px) 100vw,'
-                         '(max-width: 899px) and (min-width: 421px) 33.3vw,'
-                         '(max-width: 1300px) and (min-width: 900px) 25vw,'
-                         '(min-width: 1301px) 20vw'}).attrs.get('alt')
-        })
+        return html.find_all('a', {'itemprop': 'contentUrl'})
 
     # Used in __call__
     def filename_format(self, idx, extension):
@@ -107,26 +101,18 @@ class ImageDownloader:
         -------
 
         """
-        for idx, img in enumerate(image_list, 1):
+        for idx, img in enumerate(tqdm(image_list), 1):
             filename = self.filename_format(idx, 'jpg')
             with io.open(filename, 'wb') as file:
                 file.write(requests.get(
-                    img.attrs.get('srcset').split(' ')[0]).content)
+                    img.attrs.get('href')).content)
 
     def __call__(self, *args, **kwargs):
         self.saving_image(self.filtering(self.soup(requests.get(self.url))))
 
 
-def finding_url_list(url):
-    html = BeautifulSoup(requests.get(url).content, 'html5lib')
-    url_list_ = []
-    for elem in html.find_all('ul', {'class': 'gallery-a b'}):
-        for link in elem.find_all('a'):
-            url_list_.append(link.attrs.get('href'))
-    return url_list_[::-1]
-
-
 if __name__ == '__main__':
-    for url_ in tqdm(finding_url_list('https://www.elitebabes.com/model'
-                                      '/carissa-white/')):
-        ImageDownloader(url_, 'carissa-white').__call__()
+    AnaDiasDownloader(
+        'http://www.anadiasphotography.com/proj/marisa-papen-bahama-mama/',
+        'marisa-papen'
+    ).__call__()
