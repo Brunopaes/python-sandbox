@@ -18,6 +18,7 @@ def read_json(path):
     -------
     json.load : dict
         The json content parsed into a python dict.
+
     """
     try:
         with open(path, 'r') as f:
@@ -93,7 +94,6 @@ def ocr(path, lang='eng'):
 
     Returns
     -------
-
 
     """
     image = Image.open(path)
