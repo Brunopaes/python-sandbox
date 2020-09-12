@@ -9,11 +9,14 @@ import os
 
 
 def read_json(path):
-    """This function opens a json file and parses it content into a python dict.
+    """This function opens a json file and parses it content into a python
+    dict.
+
     Parameters
     ----------
     path : str
         The json file path.
+
     Returns
     -------
     json.load : dict
