@@ -22,7 +22,7 @@ class ETA:
     # Used in __call__
     def click_endgame(self):
         self.driver.find_element_by_xpath(
-            '//span[contains(text(),"Luiz Felipe Moraes")]'
+            '//span[contains(text(),"Ricardo Pedrotti")]'
         ).click()
 
     # Used in __call__
