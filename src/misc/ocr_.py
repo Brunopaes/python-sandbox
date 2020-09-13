@@ -8,7 +8,7 @@ import helpers
 class NexusRPR:
     def __init__(self):
         self.driver = webdriver.Chrome(
-            r'F:\PythonProjects\Personal\python-sandbox\drivers'
+            r'D:\PythonProjects\Personal\python-sandbox\drivers'
             r'\chromedriver.exe'
         )
         self.credentials = helpers.read_json('credentials.json')
