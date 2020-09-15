@@ -14,7 +14,14 @@ class NexusRPR:
         self.credentials = helpers.read_json('credentials.json')
         self.url = 'https://banco_abc.nexusweb.com.br/'
 
+    # Used in __call__
     def filling_form(self):
+        """This function fills the website's form.
+
+        Returns
+        -------
+
+        """
         Select(
             self.driver.find_element_by_xpath('//*[@id="cboCampo"]')
         ).select_by_index(2)
@@ -35,7 +42,14 @@ class NexusRPR:
         self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
         input()
 
+    # Used in __call__
     def opening_and_screening(self):
+        """This function opens the webdriver and screenshots.
+
+        Returns
+        -------
+
+        """
         self.driver.get(self.url)
         self.driver.fullscreen_window()
         self.driver.save_screenshot(r'data/images/a.png')

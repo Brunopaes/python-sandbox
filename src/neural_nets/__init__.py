@@ -1,6 +1,7 @@
 __all__ = [
     'cnn',
     'face',
+    'gan_',
     'speech'
 ]
 
