@@ -32,7 +32,6 @@ class NexusRPR:
             self.driver.find_element_by_xpath('//*[@id="cboLocal"]')
         ).select_by_index(1)
 
-        input()
         self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
         input()
 

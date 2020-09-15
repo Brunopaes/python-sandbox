@@ -113,6 +113,6 @@ class AnaDiasDownloader:
 
 if __name__ == '__main__':
     AnaDiasDownloader(
-        'http://www.anadiasphotography.com/proj/monica-wasp-high-roller/',
-        'monica-wasp'
+        'http://www.anadiasphotography.com/proj/adel-vakula-last-house-on-mulholland/',
+        'adel-vakula'
     ).__call__()
