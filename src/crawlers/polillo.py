@@ -8,8 +8,7 @@ import time
 
 class ETA:
     def __init__(self):
-        self.path = r'F:\PythonProjects\Personal\python-sandbox\drivers' \
-                    r'\chromedriver.exe'
+        self.path = r'D:\PythonProjects\Personal\python-sandbox\drivers\chromedriver.exe'
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, options=self.options)
@@ -22,7 +21,7 @@ class ETA:
     # Used in __call__
     def click_endgame(self):
         self.driver.find_element_by_xpath(
-            '//span[contains(text(),"Ricardo Pedrotti")]'
+            '//span[contains(text(),"ESPM+Matias Game Call")]'
         ).click()
 
     # Used in __call__
@@ -41,9 +40,7 @@ class ETA:
         message_list = text_1.split(' ')
 
         if '!copy' in message_list:
-            phrase = ''
-            text = text_2.replace(' ', '').upper()
-            self.message = phrase.join(list(text))
+            self.message = text_2
         elif '!paste' in message_list:
             if len(message_list) == 1:
                 for i in range(5):

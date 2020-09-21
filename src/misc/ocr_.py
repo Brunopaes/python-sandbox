@@ -41,8 +41,6 @@ class NexusRPR:
 
         self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
 
-        self.driver.switch_to.alert.accept()
-
         input()
 
     # Used in __call__
