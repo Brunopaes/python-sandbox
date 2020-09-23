@@ -61,7 +61,6 @@ class ETA:
 
     def __call__(self, *args, **kwargs):
         input()
-
         self.click_endgame()
         while True:
             self.verify_eta(*self.get_last_message())
