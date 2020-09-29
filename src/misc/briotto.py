@@ -7,7 +7,6 @@ def saude(pessoas, d_encontro, d_observacao):
     for i in pessoas:
         if i + 15 > d_observacao:
             infected.append(i)
-
     return len(infected)
 
 

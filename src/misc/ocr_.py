@@ -1,8 +1,10 @@
 #!-*- coding: utf8 -*-
+from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.webdriver.support.ui import Select
 from selenium import webdriver
 
 import helpers
+import time
 
 
 class NexusRPR:
@@ -22,30 +24,43 @@ class NexusRPR:
         -------
 
         """
-        Select(
-            self.driver.find_element_by_xpath('//*[@id="cboCampo"]')
-        ).select_by_index(2)
+        while True:
+            self.driver.save_screenshot(r'data/images/a.png')
+            helpers.crop_image('data/images/a.png', (870, 600, 1050, 650))
 
-        cpf = self.driver.find_element_by_xpath('//*[@id="txtValor"]')
-        cpf.send_keys(self.credentials.get('cpf'))
+            Select(
+                self.driver.find_element_by_xpath('//*[@id="cboCampo"]')
+            ).select_by_index(2)
 
-        password = self.driver.find_element_by_xpath('//*[@id="txtSENHA"]')
-        password.send_keys(self.credentials.get('token'))
+            cpf = self.driver.find_element_by_xpath('//*[@id="txtValor"]')
+            cpf.clear()
+            cpf.send_keys(self.credentials.get('cpf'))
 
-        captcha = self.driver.find_element_by_xpath('//*[@id="captchacode"]')
-        captcha.send_keys(helpers.ocr(r'data/images/a.png'))
+            password = self.driver.find_element_by_xpath('//*[@id="txtSENHA"]')
+            password.clear()
+            password.send_keys(self.credentials.get('token'))
 
-        Select(
-            self.driver.find_element_by_xpath('//*[@id="cboLocal"]')
-        ).select_by_index(1)
+            captcha = self.driver.find_element_by_xpath(
+                '//*[@id="captchacode"]')
+            captcha.clear()
+            captcha.send_keys(helpers.ocr(r'data/images/a.png'))
 
-        self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
+            Select(
+                self.driver.find_element_by_xpath('//*[@id="cboLocal"]')
+            ).select_by_index(1)
 
-        input()
+            self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
+
+            try:
+                self.driver.switch_to.alert()
+                self.driver.save_screenshot(r'data/images/a.png')
+                print('Success')
+            except UnexpectedAlertPresentException:
+                pass
 
     # Used in __call__
     def opening_and_screening(self):
-        """This function opens the webdriver and screenshots.
+        """This function opens the webdriver and access the nexus webpage.
 
         Returns
         -------
@@ -53,11 +68,9 @@ class NexusRPR:
         """
         self.driver.get(self.url)
         self.driver.fullscreen_window()
-        self.driver.save_screenshot(r'data/images/a.png')
 
     def __call__(self, *args, **kwargs):
         self.opening_and_screening()
-        helpers.crop_image('data/images/a.png', (870, 600, 1050, 650))
         self.filling_form()
 
 
