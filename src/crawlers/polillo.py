@@ -8,7 +8,8 @@ import time
 
 class ETA:
     def __init__(self):
-        self.path = r'D:\PythonProjects\Personal\python-sandbox\drivers\chromedriver.exe'
+        self.path = r'D:\PythonProjects\Personal\python-sandbox\drivers\
+        chromedriver.exe'
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, options=self.options)

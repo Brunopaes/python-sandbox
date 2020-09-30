@@ -152,9 +152,8 @@ class Poster:
 
 
 if __name__ == '__main__':
-    for i in range(10):
+    for i in range(2):
         Poster(
             r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
             'Playboy',
-            playboy_on_reddit=True
         ).__call__()
