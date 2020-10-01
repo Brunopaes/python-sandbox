@@ -4,6 +4,7 @@ from selenium.common import exceptions
 from selenium import webdriver
 
 import helpers
+import time
 
 
 class NexusRPR:
@@ -51,13 +52,11 @@ class NexusRPR:
             self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
 
             try:
+                time.sleep(2)
                 self.driver.switch_to.alert.accept()
-                self.driver.save_screenshot(r'data/images/a.png')
                 break
             except exceptions.NoAlertPresentException:
                 pass
-            except exceptions.UnexpectedAlertPresentException:
-                break
 
     # Used in __call__
     def opening_and_screening(self):
