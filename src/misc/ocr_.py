@@ -53,7 +53,6 @@ class NexusRPR:
             try:
                 self.driver.switch_to.alert.accept()
                 self.driver.save_screenshot(r'data/images/a.png')
-                print('Success')
                 break
             except exceptions.NoAlertPresentException:
                 pass
