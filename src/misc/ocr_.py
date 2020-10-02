@@ -15,6 +15,7 @@ class NexusRPR:
         )
         self.credentials = helpers.read_json('credentials.json')
         self.url = 'https://banco_abc.nexusweb.com.br/'
+        self.alert = None
 
     # Used in __call__
     def filling_form(self):
@@ -53,10 +54,13 @@ class NexusRPR:
 
             try:
                 time.sleep(2)
-                self.driver.switch_to.alert.accept()
+                alert = self.driver.switch_to.alert
+                self.alert = alert.text
+                alert.accept()
                 break
             except exceptions.NoAlertPresentException:
                 pass
+        return self.alert
 
     # Used in __call__
     def opening_and_screening(self):
@@ -75,4 +79,4 @@ class NexusRPR:
 
 
 if __name__ == '__main__':
-    NexusRPR().__call__()
+    print(NexusRPR().__call__())
