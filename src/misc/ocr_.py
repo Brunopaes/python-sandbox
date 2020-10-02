@@ -75,7 +75,7 @@ class NexusRPR:
 
     def __call__(self, *args, **kwargs):
         self.opening_and_screening()
-        self.filling_form()
+        return self.filling_form()
 
 
 if __name__ == '__main__':
