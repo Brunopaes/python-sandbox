@@ -7,7 +7,7 @@ import helpers
 import time
 
 
-class NexusRPR:
+class NexusRPA:
     def __init__(self):
         self.driver = webdriver.Chrome(
             r'D:\PythonProjects\Personal\python-sandbox\drivers'
@@ -18,52 +18,7 @@ class NexusRPR:
         self.alert = None
 
     # Used in __call__
-    def filling_form(self):
-        """This function fills the website's form.
-
-        Returns
-        -------
-
-        """
-        while True:
-            self.driver.save_screenshot(r'data/images/a.png')
-            helpers.crop_image('data/images/a.png', (870, 600, 1050, 650))
-
-            Select(
-                self.driver.find_element_by_xpath('//*[@id="cboCampo"]')
-            ).select_by_index(2)
-
-            cpf = self.driver.find_element_by_xpath('//*[@id="txtValor"]')
-            cpf.clear()
-            cpf.send_keys(self.credentials.get('cpf'))
-
-            password = self.driver.find_element_by_xpath('//*[@id="txtSENHA"]')
-            password.clear()
-            password.send_keys(self.credentials.get('token'))
-
-            captcha = self.driver.find_element_by_xpath(
-                '//*[@id="captchacode"]')
-            captcha.clear()
-            captcha.send_keys(helpers.ocr(r'data/images/a.png'))
-
-            Select(
-                self.driver.find_element_by_xpath('//*[@id="cboLocal"]')
-            ).select_by_index(1)
-
-            self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
-
-            try:
-                time.sleep(2)
-                alert = self.driver.switch_to.alert
-                self.alert = alert.text
-                alert.accept()
-                break
-            except exceptions.NoAlertPresentException:
-                pass
-        return self.alert
-
-    # Used in __call__
-    def opening_and_screening(self):
+    def opening_page(self):
         """This function opens the webdriver and access the nexus webpage.
 
         Returns
@@ -73,10 +28,65 @@ class NexusRPR:
         self.driver.get(self.url)
         self.driver.fullscreen_window()
 
+    # Used in __call__
+    def filling_form(self):
+        """This function fills the website's form.
+
+        Returns
+        -------
+
+        """
+        Select(
+            self.driver.find_element_by_xpath('//*[@id="cboCampo"]')
+        ).select_by_index(2)
+
+        cpf = self.driver.find_element_by_xpath('//*[@id="txtValor"]')
+        cpf.clear()
+        cpf.send_keys(self.credentials.get('cpf'))
+
+        password = self.driver.find_element_by_xpath('//*[@id="txtSENHA"]')
+        password.clear()
+        password.send_keys(self.credentials.get('token'))
+
+        captcha = self.driver.find_element_by_xpath(
+            '//*[@id="captchacode"]')
+        captcha.clear()
+        captcha.send_keys(helpers.ocr(r'data/images/a.png'))
+
+        Select(
+            self.driver.find_element_by_xpath('//*[@id="cboLocal"]')
+        ).select_by_index(1)
+
+        self.driver.find_element_by_xpath('//*[@id="btOk"]').click()
+
+        self.handling_alert()
+
+    # Used in __call__
+    @staticmethod
+    def buffer(seconds=2):
+        time.sleep(seconds)
+
+    # Used in __call__
+    def handling_alert(self):
+        try:
+            alert = self.driver.switch_to.alert
+            self.alert = alert.text
+            alert.accept()
+        except exceptions.NoAlertPresentException:
+            pass
+
     def __call__(self, *args, **kwargs):
-        self.opening_and_screening()
-        return self.filling_form()
+        self.opening_page()
+        while True:
+            self.driver.save_screenshot(r'data/images/a.png')
+            helpers.crop_image('data/images/a.png', (870, 600, 1050, 650))
+            self.filling_form()
+            self.buffer()
+            self.handling_alert()
+
+            if self.alert is not None:
+                return self.alert
 
 
 if __name__ == '__main__':
-    print(NexusRPR().__call__())
+    print(NexusRPA().__call__())
