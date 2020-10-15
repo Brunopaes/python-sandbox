@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def saude(pessoas, d_encontro, d_observacao):
     infected = []
     if any(i > -1 for i in pessoas):

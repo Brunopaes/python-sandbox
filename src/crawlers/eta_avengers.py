@@ -15,7 +15,8 @@ def calc_eta():
     m, s = divmod(date.seconds, 60)
     h, m = divmod(m, 60)
 
-    return '{:d} dias {:d} horas {:02d} minutos {:02d} segundos'.format(date.days, h, m, s)
+    return '{:d} dias {:d} horas {:02d} minutos {:02d} segundos'.\
+        format(date.days, h, m, s)
 
 
 class ETA:
@@ -46,7 +47,6 @@ class ETA:
         message_list = text.split(' ')
         if 'eta' in message_list:
             self.send_eta()
-
         else:
             print('não foi')
 
