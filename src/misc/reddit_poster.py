@@ -70,6 +70,7 @@ class Poster:
         logging.info('Authenticating in Imgur')
         return ImgurClient(**self.credentials.get('imgur'))
 
+    # used in __init__
     def choose_file(self):
         """This function given a specific path random selects a to be posted
         image file.
@@ -94,6 +95,7 @@ class Poster:
 
         return playmate_dir, filename, post_title
 
+    # used in __init__
     def upload_to_imgur(self, path):
         """This function uploads a image to Imgur.
 
@@ -110,6 +112,7 @@ class Poster:
         """
         return self.imgur.upload_from_path(path)
 
+    # used in __init__
     def upload_to_reddit(self, imgur_dict, post_title):
         """This function uploads an imgur link to Reddit.
 
