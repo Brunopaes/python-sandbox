@@ -122,6 +122,7 @@ class Poster:
             The upload responses.
         post_title : str
             Post Title.
+
         Returns
         -------
 

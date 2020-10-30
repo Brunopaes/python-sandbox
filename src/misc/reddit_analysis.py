@@ -23,7 +23,9 @@ class Reader:
         return self.soup(open(self.path, 'r').read())
 
     def find_div(self):
-        return self.html.find_all('div', {'class': '_23vJv7PbwZphG7Y4LE5wFA'})
+        return self.html.find_all('div', {
+            'class': '_23vJv7PbwZphG7Y4LE5wFA'
+        })
 
     def find_span(self, div_list):
         for div in div_list:
@@ -42,7 +44,8 @@ class Reader:
         df = pandas.DataFrame(self.dict)
 
         df.date = pandas.to_datetime(df.date)
-        df.pageviews = df.pageviews.apply(lambda row: self.formatting_row(row))
+        df.pageviews = \
+            df.pageviews.apply(lambda row: self.formatting_row(row))
         df.uniques = df.uniques.apply(lambda row: self.formatting_row(row))
         df['members-joined'] = \
             df['members-joined'].apply(lambda row: self.formatting_row(row))
