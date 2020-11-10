@@ -8,7 +8,7 @@ __all__ = [
     'mail',
     'pdf_converter',
     'reddit_analysis',
-    'reddit_poster',
+    'reddit_submiter',
     'gpu_running',
     'telegram_replier',
     'morse_processing',
