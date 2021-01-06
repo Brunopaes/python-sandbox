@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from helpers import read_json
-from tqdm import tqdm
 
 import json
 import os
@@ -10,11 +9,9 @@ out_path = r'C:\Users\bruno\Desktop\juntas_moto+carro_new\new'
 
 list_dir = os.listdir(path)
 
-# for elem in tqdm(list_dir[100:]):
 for elem in list_dir:
     dict_ = read_json(os.path.join(path, elem))
     try:
-        # dict_.get('annotations').get('instances')[0]['class'] = 'junta_carro'
         print(dict_.get('annotations').get('instances')[0]['class'])
     except IndexError:
         print(elem)
