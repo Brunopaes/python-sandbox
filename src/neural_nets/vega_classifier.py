@@ -7,3 +7,7 @@ import PIL
 import os
 import re
 
+
+class ConvNet:
+    def __init__(self):
+        pass
