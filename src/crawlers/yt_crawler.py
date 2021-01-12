@@ -3,7 +3,6 @@ import time
 
 
 class Scraper(object):
-
     def __init__(self):
         self.path = r'/Users/brunopaes/Documents/OneDrive/Acadêmico/ESPM/misc/05.4 - Python_Playground/drivers/chromedriver'
         self.driver = webdriver.Chrome(self.path)
