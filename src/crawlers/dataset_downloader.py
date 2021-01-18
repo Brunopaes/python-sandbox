@@ -33,7 +33,7 @@ class ImageDownloader:
         soup = self.soup(self.accessing_page(self.base_url))
 
         for url in ['{}/{}'.format(self.base_url, a.text) for a in
-                    soup.find_all('a')[5:]]:
+                    soup.find_all('a')[18:]]:
             self.downloading_images(self.soup(self.accessing_page(url)), url)
 
 
