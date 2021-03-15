@@ -10,6 +10,7 @@ pyautogui>=0.9.50
 keyboard>=0.13.5
 requests>=2.22.0
 pandas>=0.25.3
+tweepy>=3.10.0
 html5lib>=1.1
 numba>=0.50.1
 pillow>=7.2.0
