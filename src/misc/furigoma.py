@@ -35,7 +35,6 @@ def furigoma():
 
     player_1 = []
     player_2 = []
-
     for pawn in range(5):
         player_1.append(random.choice(pawn_state))
         player_2.append(random.choice(pawn_state))
@@ -44,4 +43,13 @@ def furigoma():
 
 
 if __name__ == '__main__':
-    print(furigoma())
+    list_ = []
+    for i in range(10):
+        list_.clear()
+        for j in range(100000):
+            play = furigoma()
+            list_.append(play.index(max(play)) + 1)
+
+        print('player 1: {}\nplayer 2: {}\n-------------'.format(
+            list_.count(1), list_.count(2)
+        ))
