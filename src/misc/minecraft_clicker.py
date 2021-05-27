@@ -19,7 +19,7 @@ def left_clicker():
             keyboard.wait('shift')
 
 
-def scroll_up_down(list_=(300, -300)):
+def scroll_up_down(list_=(200, -200)):
     keyboard.wait('shift')
     while True:
         for i in list_:
@@ -29,4 +29,4 @@ def scroll_up_down(list_=(300, -300)):
 
 
 if __name__ == '__main__':
-    scroll_up_down()
+    left_clicker()
