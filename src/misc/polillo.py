@@ -15,7 +15,7 @@ class ETA:
         self.driver = webdriver.Chrome(self.path, options=self.options)
         self.url = 'https://web.whatsapp.com'
 
-        self.driver.get('http://web.whatsapp.com')
+        self.driver.get('https://web.whatsapp.com')
 
         self.message = ""
 
