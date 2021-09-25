@@ -11,17 +11,47 @@ import time
 # Exercise 01 - python version
 # Excel version on reply e-mail body
 def int_to_datetime(int_date):
+    """Function for parsing int to datetime.
+
+    Parameters
+    ----------
+    int_date : int
+        Number representing integer.
+
+    Returns
+    -------
+    date_time : datetime.datetime
+        Parsed datetime.
+
+    """
     return datetime.datetime.fromtimestamp(int_date).strftime(
         "%d-%m-%Y %H:%M:%S"
     )
 
 
 # Exercise 03
-def pandas_operation(path=r"data\Tabela_exercicio2.csv"):
+def pandas_operation(path=r"data\Tabela_exercicio2.csv",
+                     encoding='latin-1'):
+    """Function for aggregating shares revenue (prod. sum.) by client.
+
+    Parameters
+    ----------
+    path : str
+        CSV file path.
+
+    encoding : str
+        Pandas read csv encoding.
+
+    Returns
+    -------
+    df : pandas.DataFrame
+        Aggregated dataframe.
+
+    """
     return pandas.DataFrame(
         pandas.read_csv(
             path,
-            encoding='utf-8',
+            encoding=encoding,
             index_col='Cliente',
             sep=';'
         )[['QTD', 'PREÇO']].prod(axis=1).groupby('Cliente').sum()
@@ -30,6 +60,12 @@ def pandas_operation(path=r"data\Tabela_exercicio2.csv"):
 
 # Exercise 03
 def db_connection():
+    """Function for connecting, creating and
+
+    Returns
+    -------
+
+    """
     conn = pyodbc.connect(
         'Driver={SQL Server};'
         'Server=XP1;'
@@ -52,7 +88,7 @@ def sum_shares():
 # Exercise 05
 class XPinGooogle():
     def __init__(self, driver_path=r'D:\PythonProjects\Personal\python'
-                                   r'-sandbox\drivers\chromedriver.exe',):
+                                   r'-sandbox\drivers\chromedriver.exe'):
         self.driver = webdriver.Chrome(driver_path)
         self.url = 'https://www.google.com/'
         self.time_buffer = 2
