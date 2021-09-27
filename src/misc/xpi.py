@@ -32,7 +32,6 @@ def int_to_datetime(int_date):
 
 
 # Exercise 03
-
 def pandas_operation(path=r"data\Tabela_exercicio2.csv",
                      encoding='utf-8'):
     """Function for aggregating shares revenue (prod. sum.) by client.
@@ -115,9 +114,21 @@ class XPinGooogle():
         self.time_buffer = 2
 
     def opening_webdriver(self):
+        """Function for opening the chrome webdriver.
+
+        Returns
+        -------
+
+        """
         self.driver.get(self.url)
 
     def filling_google_search(self):
+        """Function for filling google search bar.
+
+        Returns
+        -------
+
+        """
         search_bar = self.driver.find_element_by_xpath(
             '/html/body/div[1]/div[3]/form/div[1]/div[1]'
             '/div[1]/div/div[2]/input'
@@ -127,6 +138,12 @@ class XPinGooogle():
         search_bar.send_keys(Keys.ENTER)
 
     def accessing_website(self):
+        """Function for accessing first indexed result.
+
+        Returns
+        -------
+
+        """
         self.driver.find_element_by_xpath(
             '//*[@id="tads"]/div/div/div/div[1]/a'
         ).click()
