@@ -2,6 +2,8 @@
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 
+from helpers import read_json
+
 import datetime
 import pyodbc
 import pandas
@@ -30,8 +32,9 @@ def int_to_datetime(int_date):
 
 
 # Exercise 03
+
 def pandas_operation(path=r"data\Tabela_exercicio2.csv",
-                     encoding='latin-1'):
+                     encoding='utf-8'):
     """Function for aggregating shares revenue (prod. sum.) by client.
 
     Parameters
@@ -66,13 +69,31 @@ def db_connection():
     -------
 
     """
+    db_credentials = read_json('data/sql-connection.json')
+
     conn = pyodbc.connect(
-        'Driver={SQL Server};'
-        'Server=XP1;'
-        'Database=RV;'
-        'uid=teste;'
-        'pwd=teste123;'
+        "Driver={};Server={};Database={};uid={};pwd={};".format(
+            db_credentials.get('driver'),
+            db_credentials.get('server'),
+            db_credentials.get('database'),
+            db_credentials.get('user'),
+            db_credentials.get('password')
+        )
     )
+
+    conn.cursor().execute("""
+        CREATE TABLE RV.exp_acoes (
+            Cliente INTEGER PRIMARY KEY,
+            Financeiro FLOAT NOT NULL
+        );
+        
+        INSERT INTO RV.exp_acoes (Cliente, FInanceiro) VALUES (1, 96000);
+        INSERT INTO RV.exp_acoes (Cliente, FInanceiro) VALUES (2, 250000);
+        INSERT INTO RV.exp_acoes (Cliente, FInanceiro) VALUES (3, 20500);
+    """)
+
+    conn.commit()
+    conn.close()
 
 
 # Exercise 04
@@ -117,7 +138,3 @@ class XPinGooogle():
         self.accessing_website()
         self.driver.maximize_window()
         time.sleep(self.time_buffer * 5)
-
-
-XPinGooogle().__call__()
-
