@@ -11,7 +11,6 @@ class ETA:
         self.path = r'D:\PythonProjects\Personal\python-sandbox\drivers' \
                     r'\chromedriver.exe'
         self.options = webdriver.ChromeOptions()
-        self.options.add_argument('--user-data-dir=./User_Data')
         self.driver = webdriver.Chrome(self.path, options=self.options)
         self.url = 'https://web.telegram.org/'
 
@@ -20,8 +19,7 @@ class ETA:
     # Used in __call__
     def select_chat(self):
         self.driver.find_element_by_xpath(
-            '//*[@id="ng-app"]/body/div[1]/div[2]/div/div[1]/div[2]/div/div[1]'
-            '/ul/li[1]'
+            '//*[@id="LeftColumn-main"]/div[2]/div/div/div/div/div/div/div[2]/div/div[3]'
         ).click()
 
     # Used in __call__
@@ -45,11 +43,10 @@ class ETA:
     def __call__(self, *args, **kwargs):
         input()
         self.select_chat()
-        while True:
-            msg = self.get_last_message()
-            if msg == 'this is the way':
-                self.send_message()
-                time.sleep(0.7)
+        # msg = self.get_last_message()
+        # if msg == 'this is the way':
+        self.send_message()
+        time.sleep(0.7)
 
 
 if __name__ == '__main__':
