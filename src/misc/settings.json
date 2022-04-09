@@ -1,0 +1,13 @@
+{
+  "reddit": {
+    "user_agent": "Created by brnpaes",
+    "username": "brnpaes",
+    "password": "LBbxnERtu4RPJ#",
+    "client_id": "f8YaiO-mbYBzaQ",
+    "client_secret": "6SDUyKm5q6QEFaZ-d9j0vKqtwXU"
+  },
+  "imgur": {
+    "client_id": "7ed059275591986",
+    "client_secret": "006ef53f854d83a1ace26372cfbd7d86681965c8"
+  }
+}

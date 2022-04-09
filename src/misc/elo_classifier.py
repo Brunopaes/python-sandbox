@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from tkinter.filedialog import askopenfilename
 from itertools import permutations
 from tkinter import Tk

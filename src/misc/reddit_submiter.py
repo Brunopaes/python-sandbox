@@ -85,13 +85,30 @@ class Poster:
             Post Title (Obtained from image filename).
 
         """
-        playmate_dir = random.choice(os.listdir(os.path.abspath(self.path)))
-        filename = \
-            random.choice(os.listdir(r'{}\{}'.format(self.path, playmate_dir)))
+        if self.name is not None:
+            playmate_dir = self.path
+
+            filename = \
+                random.choice(
+                    os.listdir(self.path)
+                )
+        else:
+            playmate_dir = \
+                random.choice(os.listdir(os.path.abspath(self.path)))
+
+            filename = \
+                random.choice(
+                    os.listdir(r'{}\{}'.format(self.path, playmate_dir))
+                )
+
         post_title = \
             ' '.join([i.capitalize() for i in filename.split('-')[:-1]])
 
-        logging.info('Choosing file: {}, {}'.format(playmate_dir, filename))
+        logging.info('Choosing file: {}, {}'.format(
+            playmate_dir,
+            filename
+            )
+        )
 
         return playmate_dir, filename, post_title
 
@@ -152,12 +169,20 @@ class Poster:
                 self.final_path), self.post_title
             )
         else:
-            self.upload_to_reddit(self.upload_to_imgur(self.path), self.name)
+            self.path = '{}\\{}'.format(self.path, self.name)
+
+            self.playmate_dir, self.filename, self.post_title = \
+                self.choose_file()
+
+            self.upload_to_reddit(
+                self.upload_to_imgur(r'{}\\{}'.format(self.path, self.filename)),
+                self.name
+            )
 
 
 if __name__ == '__main__':
     for i in range(2):
         Poster(
-            r'C:\Users\bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
-            'Playboy',
+            r'C:\Users\Bruno\iCloudDrive\Documents\Playboy\Playboy Photos',
+            'Playboy'
         ).__call__()
