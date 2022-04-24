@@ -16,7 +16,15 @@ class LinkedInCrawler:
             sheet_name='Founders'
         )
 
+        self.progress = pandas.read_csv(
+            'data/profiles_progress.csv'
+        )
+
+        self.profiles_to_run = self.checking_progress()
+
         self.credentials = {
+            'username': '',
+            'password': '',
         }
 
         self.driver = webdriver.Chrome(path)
@@ -24,6 +32,9 @@ class LinkedInCrawler:
         self.url = 'https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin'
 
         self.base_url = None
+
+    def checking_progress(self):
+        return set(self.df.Founders).symmetric_difference(self.progress.Founders)
 
     def login(self):
         self.driver.find_element(
@@ -59,8 +70,14 @@ class LinkedInCrawler:
             profiles[1].attrs.get('href').split('?')[0]
         )
 
-        carrer = self.career(profiles)
-        # skills = self.skills(profiles)
+        career = self.career(profiles)
+        skills = self.skills(profiles)
+
+        return {
+            'Founders': [profile_name],
+            'StartYear': [career],
+            'NumberOfSkills': [skills]
+        }
 
     def soup(self):
         return BeautifulSoup(self.driver.page_source, 'html5lib')
@@ -76,6 +93,17 @@ class LinkedInCrawler:
 
         html = self.soup()
 
+        try:
+            number_of_skills = int(len(html.find_all(
+                    'span', {
+                        'class': 'mr1 hoverable-link-text t-bold'
+            })) / 2)
+        except Exception as e:
+            e.args
+            number_of_skills = None
+
+        return number_of_skills
+
     def career(self, profiles):
         self.driver.get(
             '{}/details/experience/'.format(self.base_url[0])
@@ -87,27 +115,65 @@ class LinkedInCrawler:
 
         html = self.soup()
 
-        career_start_year = html.find_all(
-            'div', {'class': 'pvs-entity pvs-entity--padded pvs-list__item--no-padding-when-nested'}
-        )[-1].find_all('span')[6].contents[1].text.split(' ')[1]
+        try:
+            career_start_year = int(html.find_all(
+                'div', {'class': 'pvs-entity pvs-entity--padded pvs-list__item--no-padding-when-nested'}
+            )[-1].find_all('span')[6].contents[1].text.split(' ')[1])
+        except ValueError:
+            career_start_year = int(html.find_all(
+                'div', {'class': 'pvs-entity pvs-entity--padded pvs-list__item--no-padding-when-nested'}
+            )[-1].find_all('span')[6].contents[1].text.split(' ')[0])
+        except Exception as e:
+            e.args
+            career_start_year = None
 
         return career_start_year
+
+    @staticmethod
+    def writer(response):
+        progress = pandas.read_csv('data/profiles_progress.csv')
+
+        progress = progress.append(
+            pandas.DataFrame(response),
+            ignore_index=True
+        )
+
+        progress.to_csv('data/profiles_progress.csv', index=None)
 
     def __call__(self, *args, **kwargs):
         self.driver.get(self.url)
         self.login()
         self.driver.maximize_window()
-        for i in tqdm(list(set(self.df.Founders))):
+
+        for founder in tqdm(self.profiles_to_run):
             try:
-                self.search(i)
+                response = self.search(founder)
             except IndexError:
-                pass
+                response = {
+                    'Founders': [founder],
+                    'StartYear': [None],
+                    'NumberOfSkills': [None]
+                }
             except selenium.common.exceptions.TimeoutException:
-                pass
+                response = {
+                    'Founders': [founder],
+                    'StartYear': [None],
+                    'NumberOfSkills': [None]
+                }
+            except Exception as e:
+                e.args
+                response = {
+                    'Founder': [founder],
+                    'StartYear': [None],
+                    'NumberOfSkills': [None]
+                }
+
+            self.writer(response)
+
         self.driver.close()
 
 
 if __name__ == '__main__':
     LinkedInCrawler(
-        r"E:\PythonProjects\Personal\friday\data\webdriver\chromedriver.exe"
+        r"C:\Users\junio\Desktop\python-sandbox\drivers\chromedriver.exe"
     ).__call__()
