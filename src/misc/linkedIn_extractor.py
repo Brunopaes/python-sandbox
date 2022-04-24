@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 import pandas
+import json
 import time
-import re
 
 
 class LinkedInCrawler:
@@ -22,16 +22,32 @@ class LinkedInCrawler:
 
         self.profiles_to_run = self.checking_progress()
 
-        self.credentials = {
-            'username': '',
-            'password': '',
-        }
+        self.credentials = self.read_json('settings.json')
 
         self.driver = webdriver.Chrome(path)
 
         self.url = 'https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin'
 
         self.base_url = None
+
+    @staticmethod
+    def read_json(path):
+        """This function opens a json file and parses it content into a python
+        dict.
+        Parameters
+        ----------
+        path : str
+            The json file path.
+        Returns
+        -------
+        json.load : dict
+            The json content parsed into a python dict.
+        """
+        try:
+            with open(path, 'r') as f:
+                return json.load(f)
+        except FileNotFoundError as e:
+            print(e.args[-1])
 
     def checking_progress(self):
         return set(self.df.Founders).symmetric_difference(self.progress.Founders)
