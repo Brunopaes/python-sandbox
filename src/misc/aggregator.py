@@ -26,7 +26,7 @@ def generate_payload(records=1000):
             "technology": random.choice(technologies),
             "date": datetime.date.today().replace(day=random.randint(1, 30)),
             "variable": random.choice(variables),
-            "value": random.randint(1, 100)
+            "value": random.randint(1, 100),
         }
         payload.append(item)
 
@@ -75,21 +75,19 @@ def aggregate_payload(payload, keys, values):
         key = key_fn(item)
         groups[key] += item[values]
 
-    return [dict(
-        zip(keys + [values], key + (value,))
-    ) for key, value in groups.items()]
+    return [dict(zip(keys + [values], key + (value,))) for key, value in groups.items()]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     technologies = ["hydro", "solar", "wind", "thermal", "geothermal"]
     variables = [f"hour_{i:02d}" for i in range(1, 26)]
 
     result = aggregate_payload(
-        generate_payload(10000),
-        ["technology", "date", "variable"],
-        "value"
+        generate_payload(10000), ["technology", "date", "variable"], "value"
     )
 
-    print(pandas.DataFrame.from_records(result).sort_values(by=[
-        "technology", "date", "variable"
-    ]))
+    print(
+        pandas.DataFrame.from_records(result).sort_values(
+            by=["technology", "date", "variable"]
+        )
+    )

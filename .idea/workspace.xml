@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ecb1120-4dd0-4951-a21e-783ad896f5d1" name="Changes" comment="Paulo Master Thesis - Crawler">
-      <change afterPath="$PROJECT_DIR$/src/misc/aggregator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-sandbox.iml" afterDir="false" />
+    <list default="true" id="9ecb1120-4dd0-4951-a21e-783ad896f5d1" name="Changes" comment="elo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/misc/aggregator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/aggregator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -141,6 +142,10 @@
       <workItem from="1650639051791" duration="270000" />
       <workItem from="1650648169722" duration="1000" />
       <workItem from="1650685681985" duration="601000" />
+      <workItem from="1683380502277" duration="13000" />
+      <workItem from="1683853405707" duration="1196000" />
+      <workItem from="1683854611776" duration="6310000" />
+      <workItem from="1683983183474" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="elo">
       <created>1649467880233</created>
@@ -177,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650825252386</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="elo">
+      <created>1681656869453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681656869453</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,9 +207,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="elo" />
     <MESSAGE value="Paulo Master Thesis - Crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paulo Master Thesis - Crawler" />
+    <MESSAGE value="elo" />
+    <option name="LAST_COMMIT_MESSAGE" value="elo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,8 +231,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/misc/aggregator.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="75" />
+          <line>3</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/misc/aggregator.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -229,7 +246,7 @@
     <SUITE FILE_PATH="coverage/python_sandbox$linkedin_crawler_2.coverage" NAME="linkedin_crawler_2 Coverage Results" MODIFIED="1650577711769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$pbi.coverage" NAME="pbi Coverage Results" MODIFIED="1654894621603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
     <SUITE FILE_PATH="coverage/python_sandbox$generating_id.coverage" NAME="generating_id Coverage Results" MODIFIED="1661555803172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
-    <SUITE FILE_PATH="coverage/python_sandbox$aggregator.coverage" NAME="aggregator Coverage Results" MODIFIED="1681651065554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
+    <SUITE FILE_PATH="coverage/python_sandbox$aggregator.coverage" NAME="aggregator Coverage Results" MODIFIED="1683899267961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$lambda_test.coverage" NAME="lambda_test Coverage Results" MODIFIED="1680827184844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/python_sandbox$utils.coverage" NAME="utils Coverage Results" MODIFIED="1654211884647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/common" />
     <SUITE FILE_PATH="coverage/python_sandbox$joao__1_.coverage" NAME="joao (1) Coverage Results" MODIFIED="1660458259459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
