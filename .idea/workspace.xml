@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecb1120-4dd0-4951-a21e-783ad896f5d1" name="Changes" comment="Docstrings and Black">
-      <change afterPath="$PROJECT_DIR$/src/crawlers/dcide.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawlers/dcide.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawlers/dcide.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +204,7 @@
       <workItem from="1685367946471" duration="9586000" />
       <workItem from="1685563842038" duration="2096000" />
       <workItem from="1685566408639" duration="53000" />
-      <workItem from="1688137935344" duration="1357000" />
+      <workItem from="1688137935344" duration="14876000" />
     </task>
     <task id="LOCAL-00001" summary="elo">
       <created>1649467880233</created>
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685565914885</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Docstrings and Black">
+      <created>1688139506287</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688139506287</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,14 +351,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/crawlers/dcide.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="43" />
+          <line>59</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/crawlers/dcide.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_sandbox$dcide.coverage" NAME="dcide Coverage Results" MODIFIED="1688139119670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
+    <SUITE FILE_PATH="coverage/python_sandbox$dcide.coverage" NAME="dcide Coverage Results" MODIFIED="1688655684405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
     <SUITE FILE_PATH="coverage/python_sandbox$generating_id.coverage" NAME="generating_id Coverage Results" MODIFIED="1661555803172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$lambda_test.coverage" NAME="lambda_test Coverage Results" MODIFIED="1680827184844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/python_sandbox$utils.coverage" NAME="utils Coverage Results" MODIFIED="1654211884647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/common" />
