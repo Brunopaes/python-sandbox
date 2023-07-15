@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ecb1120-4dd0-4951-a21e-783ad896f5d1" name="Changes" comment="Docstrings and Black">
+      <change afterPath="$PROJECT_DIR$/src/crawlers/mini.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawlers/dcide.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawlers/dcide.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +56,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\Personal\python-sandbox\drivers" />
       <recent name="C:\Users\junio\Desktop\python-sandbox\drivers" />
       <recent name="E:\PythonProjects\Personal\python-sandbox\src\misc\data" />
       <recent name="E:\PythonProjects\Personal\python-sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dcide">
+  <component name="RunManager" selected="Python.mini">
     <configuration name="01-arrays_and_hashing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linkedIn_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,12 +159,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/crawlers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/misc/linkedIn_extractor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/crawlers/mini.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mini" />
         <item itemvalue="Python.dcide" />
         <item itemvalue="Python.01-arrays_and_hashing" />
         <item itemvalue="Python.ismart07" />
         <item itemvalue="Python.aggregator" />
-        <item itemvalue="Python.linkedIn_extractor" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +206,8 @@
       <workItem from="1685367946471" duration="9586000" />
       <workItem from="1685563842038" duration="2096000" />
       <workItem from="1685566408639" duration="53000" />
-      <workItem from="1688137935344" duration="14876000" />
+      <workItem from="1688137935344" duration="15480000" />
+      <workItem from="1689424747993" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="elo">
       <created>1649467880233</created>
@@ -283,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688139506287</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Docstrings and Black">
+      <created>1688693371904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688693371904</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +369,11 @@
           <line>71</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/crawlers/mini.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -374,6 +389,7 @@
     <SUITE FILE_PATH="coverage/python_sandbox$linkedin_crawler_2.coverage" NAME="linkedin_crawler_2 Coverage Results" MODIFIED="1650577711769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$pbi.coverage" NAME="pbi Coverage Results" MODIFIED="1654894621603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
     <SUITE FILE_PATH="coverage/python_sandbox$aggregator.coverage" NAME="aggregator Coverage Results" MODIFIED="1683899267961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
+    <SUITE FILE_PATH="coverage/python_sandbox$mini.coverage" NAME="mini Coverage Results" MODIFIED="1689427954129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/crawlers" />
     <SUITE FILE_PATH="coverage/python_sandbox$ismart07.coverage" NAME="ismart07 Coverage Results" MODIFIED="1685553842150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/engineering" />
     <SUITE FILE_PATH="coverage/python_sandbox$linkedIn_extractor.coverage" NAME="linkedIn_extractor Coverage Results" MODIFIED="1654456135226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/misc" />
     <SUITE FILE_PATH="coverage/python_sandbox$01_arrays_and_hashing.coverage" NAME="01-arrays_and_hashing Coverage Results" MODIFIED="1685493759960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/engineering" />
