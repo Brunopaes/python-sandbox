@@ -53,3 +53,11 @@ query = "{bbdsId: bbdsId, tickerDetails: {ticker: ticker, historyType: historyTy
 # Restructure the dictionary using the function
 restructured_data = restructure_dictionary(data, query)
 print(restructured_data)
+
+{
+    'TICKER': ['GFLX_SINITA_GR', 'GFLX_RONQUE_FE'],
+    'MINDATE': "01-01-2022",  #DD-MM-YYYY
+    'MAXDATE': "01-02-2022"  #DD-MM-YYYY
+}
+
+

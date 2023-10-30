@@ -44,4 +44,4 @@ def copy_and_paste():
 
 
 if __name__ == '__main__':
-    copy_and_paste()
+    scroll_up_down()
