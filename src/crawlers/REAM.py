@@ -63,5 +63,6 @@ if __name__ == '__main__':
 
     ffill.to_csv(
         "REAM.csv",
-        index=None
+        index=False,
+        encoding="latin-1"
     )
